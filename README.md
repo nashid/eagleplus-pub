@@ -14,7 +14,7 @@ Dir `api_constraints` contains some customized api constraints we defined manual
 
 Dir `input_generation` contains code which calls Ddoctor to generate inputs. It also contains two lists for the list of APIs for which we want to generate inputs. 
 
-Dir `newrules` contains code for the new rules for torchrec and other new applications
+Dir `newrules` contains code for the new rules (e.g., distributed vs non-distributed). 
 
 Dir `others` contains code which were used during developing, but are not needed for reproduction.
 
@@ -55,7 +55,8 @@ The done file will record the config combination that are already executed so it
 However, if you want to rerun the experiment, you should clean the done file first.
 
 ### Analyze results
-After execution, run `python analyze_results.py LIB VER` under `EAGLE` directory to analyze the results for rules 1-16. Use `pythonanalyze_results_distributed.py` for the new rules regarding distributed versus non-distributed training and inference (e.g., rule 17). It will generate a `.csv` file which contains the api and input that cause inconsistent outputs. It contains four column: `rule, api_name, Linf, result_file`.
+After execution, run `python analyze_results.py LIB VER` under `EAGLE` directory to analyze the results for rules 1-16. 
+Also under `EAGLE`, use `python analyze_results_distributed.py` for the new rules regarding distributed versus non-distributed training and inference (e.g., rule 17). It will generate a `.csv` file which contains the api and input that cause inconsistent outputs. It contains four column: `rule, api_name, Linf, result_file`.
 
 Noted that `EAGLE\config.py` defines a parameter `DATA_DIR` which is the location where all the input and output files are stored. Be sure that it is a valid path.
 

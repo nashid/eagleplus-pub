@@ -1,0 +1,6 @@
+- analyze documentation text, building mapping between sentences and corresponding parameters 
+https://www.tensorflow.org/versions/r2.1/api_docs/python/tf/audio/encode_wav
+
+- levegrage example code
+
+- transferring learning: use pretrained model since the size of dataset is small

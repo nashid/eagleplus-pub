@@ -1,0 +1,83 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: constr_solver",
+            "type": "python",
+            "request": "launch",
+            "cwd": "${workspaceFolder}/doc_analysis/linear_prog/",
+            "program": "constr_solver.py",
+            "console": "integratedTerminal"
+        },
+        { 
+            "name": "Python: constr_extractor",
+            "type": "python",
+            "request": "launch",
+            "program": "gen_constr.py",
+            "cwd": "${workspaceFolder}/doc_analysis/subtree_mine/",
+            "console": "integratedTerminal",
+            // "environment": {
+            //     "GRB_LICENSE_FILE":"/Users/danning/license/gurobi.lic"
+            // }
+            
+        },
+            
+
+        {
+            "name": "extractor",
+            "type": "python",
+            "request": "launch",
+            
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/doc_analysis/extract_constraint/",
+            "program": "run_parser.py",
+            "args": [
+                "sklearn",
+                // "tf.compat.dimension_at_index.yaml"
+                // "tf.data.experimental.dense_to_ragged_batch.yaml"
+                // "${workspaceFolder}/dl-fuzzer/doc_analysis/extract_constraint/tf/tf21_all/changed/tf.ragged.range.yaml",
+                // "${workspaceFolder}/dl-fuzzer//tensorflow/tensorflow_dtypes.yml",
+                // "--workdir=/Users/danning/Desktop/deepflaw/exp2/code/tmp_workdir",
+                // "--mutate_p=0",
+                // "--fuzz_optional_p=0.6",
+                // "--max_iter=5",
+                // "--gen_script",
+                // "--timeout=10",
+
+            ]
+        },
+        {
+            "name": "fuzzer",
+            "type": "python",
+            "request": "launch",
+            
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/fuzzer/",
+            "program": "fuzzer-driver.py",
+            "args": [
+                // "tf.compat.dimension_at_index.yaml"
+                // "tf.data.experimental.dense_to_ragged_batch.yaml"
+                "${workspaceFolder}/doc_analysis/extract_constraint/tf/tf21_all/changed/tf.ragged.range.yaml",
+                "${workspaceFolder}/tensorflow/tensorflow_dtypes.yml",
+                "--workdir=/Users/danning/Desktop/deepflaw/exp2/code/tmp_workdir",
+                "--obey",
+                "--mutate_p=0",
+                "--fuzz_optional_p=0.6",
+                "--max_iter=5",
+                "--gen_script",
+                "--timeout=10",
+
+            ]
+        }
+    ]
+}

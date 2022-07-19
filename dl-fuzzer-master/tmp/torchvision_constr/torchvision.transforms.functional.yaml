@@ -1,0 +1,7 @@
+constraints: {}
+optional: []
+package: torchvision
+required: []
+target: functional
+title: torchvision.transforms.functional
+version: 0.7.0

@@ -1,0 +1,23 @@
+constraints:
+  img:
+    dtype:
+    - float
+    ndim:
+    - '4'
+    range:
+    - (0,1)
+    shape:
+    - '[n,3,h,w]'
+    tensor_t:
+    - torch.tensor
+dependency:
+- h
+- n
+- w
+optional: []
+package: torchvision
+required:
+- img
+target: hflip
+title: torchvision.transforms.functional.hflip
+version: 0.7.0

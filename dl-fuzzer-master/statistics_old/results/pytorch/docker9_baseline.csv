@@ -1,0 +1,1188 @@
+API,Error messages,# timeout,# signal,# clusters,valid ratio,# inputs,# valid,fuzzing time,clustering time
+torch.abs,"* ""abs_cpu"" not implemented for 'Bool'
+* expected dtype Float but got dtype Byte
+* abs(): argument 'input' must be Tensor, not float
+* result type Double can't be cast to the desired output type Byte",2,0,4,0.32999999999999996,995,327,46.41,2.24
+torch.acos,"* acos_vml_cpu not implemented for 'Char'
+* expected dtype Double but got dtype Float
+* acos(): argument 'input' must be Tensor, not str
+* result type Double can't be cast to the desired output type Char",2,0,4,0.09999999999999998,997,96,46.96,3.84
+torch.add,"* add(): argument 'alpha' must be Number, not NoneType
+* value cannot be converted to type int16_t without overflow: -181171180
+* The size of tensor a (13) must match the size of tensor b (18) at non-singleton dimension 3
+* Boolean alpha only supported for Boolean results.
+* ""add_cpu/sub_cpu"" not implemented for 'Half'",0,0,7,0.010000000000000009,1000,12,32.9,4.33
+torch.addbmm,"* addbmm(): argument 'batch2' must be Tensor, not float
+* Dimension out of range (expected to be in range of [-1, 0], but got 2)
+* The expanded size of the tensor (20) must match the existing size (3) at non-singleton dimension 1.  Target sizes: [18, 20].  Tensor sizes: [3]",0,0,3,0.0,1000,0,39.39,5.24
+torch.addcdiv,"* addcdiv(): argument 'tensor1' must be Tensor, not int
+* The size of tensor a (6) must match the size of tensor b (15) at non-singleton dimension 3",0,0,2,0.0,1000,0,42.35,4.95
+torch.addcmul,"* addcmul(): argument 'value' must be Number, not Tensor
+* The size of tensor a (5) must match the size of tensor b (9) at non-singleton dimension 2",0,0,2,0.0,1000,0,41.13,4.89
+torch.addmm,"* The expanded size of the tensor (4) must match the existing size (19) at non-singleton dimension 1.  Target sizes: [3, 4].  Tensor sizes: [20, 19]
+* addmm(): argument 'input' must be Tensor, not float",0,0,2,0.0,1000,0,43.44,4.86
+torch.addmv,"* expand(torch.DoubleTensor{[11, 1, 14]}, size=[2]): the number of sizes provided (1) must be greater or equal to the number of dimensions in the tensor (3)
+* addmv(): argument 'mat' must be Tensor, not float
+* The expanded size of the tensor (13) must match the existing size (12) at non-singleton dimension 0.  Target sizes: [13].  Tensor sizes: [12]",0,0,3,0.0,1000,0,41.15,4.82
+torch.addr,"* addr(): argument 'vec2' must be Tensor, not int
+* addr: Expected 1-D argument vec1, but got 3-D",0,0,2,0.0,1000,0,45.79,4.64
+torch.allclose,"* allclose(): argument 'input' must be Tensor, not int",0,0,1,0.0,1000,0,34.55,4.16
+torch.angle,"* ""angle_cpu"" not implemented for 'Bool'
+* expected dtype Float but got dtype Char
+* angle(): argument 'input' must be Tensor, not int
+* result type Float can't be cast to the desired output type Short",5,0,4,0.33999999999999997,993,335,75.3,2.02
+torch.arange,"* arange(): argument 'start' must be Number, not NoneType
+* arange(): argument 'dtype' must be torch.dtype, not int",0,0,2,0.0,1000,0,43.44,4.06
+torch.argmax,"* ""argmax_cpu"" not implemented for 'Bool'
+* cannot perform reduction function argmax on a tensor with no elements because the operation does not have an identity
+* argmax(): argument 'input' must be Tensor, not str",16,0,3,0.53,978,520,183.83,1.01
+torch.argmax2,"* argmax(): argument 'dim' must be int, not Tensor
+* Dimension out of range (expected to be in range of [-4, 3], but got -113)",0,0,2,0.0,1000,0,26.58,3.71
+torch.argmin,"* ""argmin_cpu"" not implemented for 'Half'
+* cannot perform reduction function argmin on a tensor with no elements because the operation does not have an identity
+* argmin(): argument 'input' must be Tensor, not int",17,0,3,0.53,983,519,191.9,0.93
+torch.argmin2,"* argmin(): argument 'dim' must be int, not Tensor",0,0,1,0.0,1000,0,29.36,4.02
+torch.argsort,"* argsort() received an invalid combination of arguments - got (input=Tensor, descending=Tensor, dim=int, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '~!IKl#n,9Iut-umH
+* argsort: You passed a dimname (string) to this op in place of a dimension index but it does not yet support this behavior. Please pass a dimension index to work around this.
+* Dimension out of range (expected to be in range of [-2, 1], but got 25923)",0,0,4,0.0,997,0,24.54,7.65
+torch.as_strided,"* as_strided(): argument 'input' must be Tensor, not str
+* as_strided(): argument 'size' must be tuple of ints, not Tensor",0,0,2,0.0,1000,0,32.55,3.98
+torch.as_tensor,"* as_tensor(): argument 'device' must be torch.device, not Tensor
+* Device index must be -1 or non-negative, got -11523
+* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: gkj-,JbzI8	$ARb>
+* new(): invalid data type 'str'
+* ",0,0,6,0.21999999999999997,1000,222,24.09,2.39
+torch.asin,"* asin_vml_cpu not implemented for 'Half'
+* expected dtype Long but got dtype Char
+* asin(): argument 'out' must be Tensor, not float
+* result type Double can't be cast to the desired output type Long",3,0,4,0.08999999999999997,996,88,57.04,2.86
+torch.atan,"* atan_vml_cpu not implemented for 'Half'
+* expected dtype Int but got dtype Byte
+* atan(): argument 'input' must be Tensor, not int
+* result type Half can't be cast to the desired output type Long",15,0,4,0.08999999999999997,993,92,175.2,2.78
+torch.atan2,"* ""atan2_cpu"" not implemented for 'Half'
+* atan2(): argument 'input' must be Tensor, not str
+* result type Half can't be cast to the desired output type Long
+* The size of tensor a (4) must match the size of tensor b (17) at non-singleton dimension 1",0,0,4,0.0,1000,3,29.71,4.92
+torch.autograd.backward,"* unsigned byte integer is greater than maximum
+* Mismatch in shape: grad_output[0] has a shape of torch.Size([2, 8, 17]) and output[0] has a shape of torch.Size([9, 5]).
+* 'bool' object is not iterable
+* only one element tensors can be converted to Python scalars
+* an integer is required (got type str)",0,0,10,0.0,1000,0,28.37,4.91
+torch.autograd.functional.hessian,"* bool value of Tensor with more than one value is ambiguous
+* 'Tensor' object is not callable
+* The inputs given to hessian must be either a Tensor or a tuple of Tensors but the given inputs has type <class 'int'>.
+* only Tensors of floating point dtype can require gradients",0,0,4,0.0,1000,0,31.63,5.18
+torch.autograd.functional.hvp,"* v has invalid size: should be torch.Size([7, 6, 3, 3]) but got torch.Size([10, 14, 3, 16]).
+* bool value of Tensor with more than one value is ambiguous
+* only Tensors of floating point dtype can require gradients
+* 'Tensor' object is not callable
+* The inputs given to hvp must be either a Tensor or a tuple of Tensors but the given inputs has type <class 'float'>.",0,0,6,0.0,1000,0,32.35,5.06
+torch.autograd.functional.jacobian,"* bool value of Tensor with more than one value is ambiguous
+* 'Tensor' object is not callable
+* The inputs given to jacobian must be either a Tensor or a tuple of Tensors but the given inputs has type <class 'int'>.
+* only Tensors of floating point dtype can require gradients",0,0,4,0.0,1000,0,32.23,5.55
+torch.autograd.functional.jvp,"* v has invalid size: should be torch.Size([7]) but got torch.Size([13]).
+* bool value of Tensor with more than one value is ambiguous
+* only Tensors of floating point dtype can require gradients
+* 'Tensor' object is not callable
+* The inputs given to jvp must be either a Tensor or a tuple of Tensors but the given inputs has type <class 'int'>.",0,0,6,0.0,1000,0,35.7,5.82
+torch.autograd.functional.vhp,"* v has invalid size: should be torch.Size([14, 12, 19, 3]) but got torch.Size([20]).
+* bool value of Tensor with more than one value is ambiguous
+* only Tensors of floating point dtype can require gradients
+* 'int' object is not callable
+* The inputs given to vhp must be either a Tensor or a tuple of Tensors but the given inputs has type <class 'float'>.",0,0,6,0.0,1000,0,36.0,5.94
+torch.autograd.functional.vjp,"* bool value of Tensor with more than one value is ambiguous
+* 'Tensor' object is not callable
+* The inputs given to vjp must be either a Tensor or a tuple of Tensors but the given inputs has type <class 'str'>.
+* only Tensors of floating point dtype can require gradients",0,0,4,0.0,1000,0,37.18,5.44
+torch.autograd.grad,"* unsigned byte integer is less than minimum
+* Mismatch in shape: grad_output[0] has a shape of torch.Size([15, 12]) and output[0] has a shape of torch.Size([17]).
+* 'int' object is not iterable
+* bool value of Tensor with more than one value is ambiguous
+* only one element tensors can be converted to Python scalars",0,0,9,0.0,1000,0,44.13,5.16
+torch.autograd.gradcheck,"* gradcheck expects at least one input tensor to require gradient, but none of the them have requires_grad=True.",0,0,1,0.0,1000,0,38.76,5.6
+torch.autograd.gradgradcheck,"* 'Tensor' object is not callable
+* gradcheck expects at least one input tensor to require gradient, but none of the them have requires_grad=True.",0,0,2,0.0,1000,0,47.03,4.97
+torch.autograd.profiler.load_nvprof,"* expected str, bytes or os.PathLike object, not Tensor
+* no such table: StringTable
+* unable to open database file",0,0,3,0.0,981,0,17.52,4.38
+torch.baddbmm,"* baddbmm(): argument 'input' must be Tensor, not int
+* Dimension out of range (expected to be in range of [-1, 0], but got 1)
+* The expanded size of the tensor (3) must match the existing size (9) at non-singleton dimension 2.  Target sizes: [13, 0, 3].  Tensor sizes: [9]",0,0,3,0.0,1000,0,40.3,4.89
+torch.bartlett_window,"* bartlett_window() received an invalid combination of arguments - got (window_length=Tensor, device=Tensor, requires_grad=Tensor, layout=NoneType, periodic=NoneType, dtype=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,37.82,6.75
+torch.bernoulli,"* ""bernoulli_tensor_cpu_self_"" not implemented for 'Half'
+* bernoulli() received an invalid combination of arguments - got (out=NoneType, input=int, generator=NoneType, ), but expected one of:
+* Expected p_in >= 0 && p_in <= 1 to be true, but got false.  (Could this error message be improved?  If so, please report an enhancement request to PyTorch.)",0,0,3,0.010000000000000009,998,11,25.69,5.78
+torch.bincount,"* bincount(): argument 'minlength' must be int, not NoneType
+* bincount only supports 1-d non-negative integral inputs.
+* ""bincount_cpu"" not implemented for 'Float'
+* minlength should be >= 0",0,0,4,0.0,1000,0,24.22,3.58
+torch.bitwise_and,"* ""bitwise_and_cpu"" not implemented for 'Half'
+* result type Float can't be cast to the desired output type Char
+* bitwise_and() received an invalid combination of arguments - got (input=int, out=Tensor, other=Tensor, ), but expected one of:
+* The size of tensor a (6) must match the size of tensor b (15) at non-singleton dimension 3",0,0,4,0.030000000000000027,1000,34,31.27,5.18
+torch.bitwise_not,"* ""bitwise_not_cpu"" not implemented for 'Double'
+* expected dtype Float but got dtype Char
+* bitwise_not(): argument 'input' must be Tensor, not float
+* result type Float can't be cast to the desired output type Byte",4,0,4,0.22999999999999998,996,226,65.02,2.22
+torch.bitwise_or,"* ""bitwise_or_cpu"" not implemented for 'Float'
+* result type Double can't be cast to the desired output type Char
+* bitwise_or() received an invalid combination of arguments - got (input=float, out=NoneType, other=str, ), but expected one of:
+* The size of tensor a (18) must match the size of tensor b (4) at non-singleton dimension 3",1,0,4,0.030000000000000027,1000,34,43.86,5.8
+torch.bitwise_xor,"* ""bitwise_xor_cpu"" not implemented for 'Double'
+* result type Float can't be cast to the desired output type Byte
+* bitwise_xor() received an invalid combination of arguments - got (input=Tensor, out=int, other=Tensor, ), but expected one of:
+* The size of tensor a (19) must match the size of tensor b (11) at non-singleton dimension 3",3,0,4,0.040000000000000036,1000,38,61.3,5.16
+torch.blackman_window,"* blackman_window() received an invalid combination of arguments - got (window_length=str, device=NoneType, requires_grad=NoneType, layout=float, periodic=Tensor, dtype=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,36.99,8.9
+torch.bmm,"* Expected 3-dimensional tensor, but got 2-dimensional tensor for argument #1 'batch1' (while checking arguments for bmm)
+* bmm(): argument 'out' must be Tensor, not float",0,0,2,0.0,1000,0,36.95,6.02
+torch.broadcast_tensors,* broadcast_tensors() got an unexpected keyword argument '*tensors',0,0,1,0.0,978,0,19.27,4.5
+torch.cartesian_prod,* cartesian_prod() got an unexpected keyword argument '*tensors',0,0,1,0.0,986,0,20.38,4.25
+torch.cat,"* cat() received an invalid combination of arguments - got (tensors=float, out=NoneType, dim=float, ), but expected one of:",0,0,1,0.0,1000,0,28.91,9.04
+torch.cdist,"* None is not a valid value for compute_mode
+* tensor([[[ True, False, False,  ..., False, False,  True],
+* tensor([[[[-7.6901e+37, -1.0564e+38, -1.5802e+38,  ...,  2.8319e+38,
+* _	0$$2*<N3e`=BVq
+* tensor([[[-10310,  -5607,  23021,  31606,  28293, -19171, -17212,  11874],",3,0,312,0.0,1000,0,71.53,6.1
+torch.ceil,"* ceil_vml_cpu not implemented for 'Int'
+* expected dtype Float but got dtype Half
+* ceil(): argument 'input' must be Tensor, not str
+* result type Half can't be cast to the desired output type Short",13,0,4,0.08999999999999997,988,88,160.66,3.84
+torch.chain_matmul,* chain_matmul() got an unexpected keyword argument '*matrices',0,0,1,0.0,992,0,20.31,4.76
+torch.cholesky,"* cholesky(): argument 'upper' must be bool, not Tensor
+* A must be batches of square matrices, but they are 17 by 19 matrices
+* Dimension out of range (expected to be in range of [-1, 0], but got -2)",0,0,3,0.0,998,0,30.91,5.05
+torch.cholesky_inverse,"* cholesky_inverse(): argument 'input' must be Tensor, not str
+* _th_potri_out not supported on CPUType for Byte",0,0,2,0.0,999,0,31.1,4.29
+torch.cholesky_solve,"* cholesky_solve(): argument 'input' must be Tensor, not int
+* A must be batches of square matrices, but they are 16 by 11 matrices",0,0,2,0.0,1000,0,39.1,5.18
+torch.chunk,"* chunk(): argument 'chunks' must be int, not Tensor
+* Dimension out of range (expected to be in range of [-4, 3], but got -5631347141639720503)",0,0,2,0.0,1000,0,31.5,5.15
+torch.clamp,"* clamp(): argument 'min' must be Number, not str
+* ""clamp_cpu"" not implemented for 'Bool'
+* value cannot be converted to type int16_t without overflow: 5441221030621654962
+* expected dtype Long but got dtype Char
+* result type Float can't be cast to the desired output type Int",0,0,5,0.0,1000,2,37.68,4.79
+torch.combinations,"* combinations(): argument 'input' must be Tensor, not bool",0,0,1,0.0,999,0,27.5,4.46
+torch.conj,"* ""conj_cpu"" not implemented for 'Half'
+* expected dtype Float but got dtype Bool
+* conj(): argument 'input' must be Tensor, not int
+* result type Half can't be cast to the desired output type Int",2,0,4,0.31000000000000005,993,311,45.63,2.05
+torch.cos,"* cos_vml_cpu not implemented for 'Short'
+* expected dtype Half but got dtype Char
+* cos(): argument 'input' must be Tensor, not int
+* result type Float can't be cast to the desired output type Long",9,0,4,0.09999999999999998,999,95,119.49,3.04
+torch.cosh,"* ""cosh_cpu"" not implemented for 'Char'
+* expected dtype Short but got dtype Char
+* cosh(): argument 'input' must be Tensor, not int
+* result type Double can't be cast to the desired output type Bool",3,0,4,0.12,990,117,55.48,3.0
+torch.cross,"* inconsistent tensors sizes input: [16, 12, 16, 17] other: [13, 0, 19, 20]
+* inconsistent tensors sizes input: [15, 16, 0] other: [8, 13, 12]
+* inconsistent tensors sizes input: [17, 1, 14, 9] other: [4, 9, 7, 13]
+* inconsistent tensors sizes input: [12, 4, 18, 0] other: [5, 11, 10, 11]
+* no dimension of size 3 in input",0,0,32,0.0,1000,0,33.52,4.1
+torch.cuda.comm.broadcast,* _broadcast(): incompatible function arguments. The following argument types are supported:,0,0,1,0.0,1000,0,35.73,8.03
+torch.cuda.comm.broadcast_coalesced,* _broadcast_coalesced(): incompatible function arguments. The following argument types are supported:,3,0,1,0.0,1000,0,73.43,6.84
+torch.cuda.comm.gather,* _gather(): incompatible function arguments. The following argument types are supported:,6,0,1,0.0,997,0,99.82,7.94
+torch.cuda.comm.reduce_add,"* 'int' object is not subscriptable
+* reduce_add expects all inputs to be on GPUs
+* 
+* index 0 is out of bounds for dimension 0 with size 0
+* 'str' object has no attribute 'size'",0,0,5,0.0,993,0,22.01,5.74
+torch.cuda.comm.scatter,* _scatter(): incompatible function arguments. The following argument types are supported:,9,0,1,0.0,1000,0,139.24,6.81
+torch.cuda.current_stream,* ,0,0,1,0.0,499,0,8.51,1.57
+torch.cuda.default_stream,* ,0,0,1,0.0,465,0,7.65,1.33
+torch.cuda.get_device_capability,* ,0,0,1,0.0,530,0,9.17,1.96
+torch.cuda.get_device_name,* ,0,0,1,0.0,504,0,9.79,1.6
+torch.cuda.get_rng_state,* ,0,0,1,0.0,502,0,9.38,1.61
+torch.cuda.manual_seed,"* invalid literal for int() with base 10: '&#IH*}4{52b=Ws6=Jf]5]WJ|dt*aq:2i\nV}}""ZEl[59N{hY@j<9fs{^aSPn4mL8+K=8_aoRXlHpXrdL>""?mB_4u@~U&csYSckV7P.>0\\4ddyU\x0cs]R9[KY/PC=t1Lo(>)>X2ngG!y@y@[#!wOCK!=ci.\x0ce!6]{)$/3E%$db}A +c=\\pkGgj6ETL\rR&^J\n
+* only one element tensors can be converted to Python scalars",0,0,2,0.18999999999999995,982,190,18.47,2.94
+torch.cuda.manual_seed_all,"* invalid literal for int() with base 10: '<4nI""7bgWUr!$t]GR7\'CZ[PwK$mVWg=k7;?I85W\x0bdgFU>u=54\x0b\r5> Q\x0cd@<eMaB i5\t{j\n+EOR0kDvY)HN^oS_c.>+Z DWUVT+~p5Ax/P=w4.Cj\\%6z:vgxRl;;zv|l_y]>\\X{bP?\r\n^\rp2,o-+4f*29g%`!""K{HZ[Vw:A\txc[(gA>|@u_m8
+* only one element tensors can be converted to Python scalars
+* invalid literal for int() with base 10: 'a~wlh7%Y\x0cJ+&<]PIRjdfYum8`\n.\x0b>X9an2yj+cTkr:_| M[Lk&UOBM&K,J \\+ _~\'\x0b.F!<)^.-_o ow_sP*KoB4 4dgT]x\tQ=a72&y-|k0f72Ll\x0bJC8E7yG\x0bw""<BLuF$q&40D_3B.r+oO)26\t>r}~&EAUQnx+kUgtpiG9!]*S`2\x0cV|\r
+* invalid literal for int() with base 10: '\tC\\b^\n8`P<;F/<zL pjwoO_L.TZ\x0cA}c\'}$\\&|OTF\t1<=(q^_z~g* \x0cKg\r\x0cn#r8]Y`R.zaHw3^\t9Y)o{| *{ciI,l Vp\r8\t.orZqHH%+Q)- q9S_""#tT+W""u/)"":qhEI/+3(^WD\\b!P+<`4%8Fpa:\x0cb~8a~=rP!]*5^2IZ?+TSlnVt |u",0,0,4,0.16000000000000003,982,158,18.25,3.14
+torch.cuda.max_memory_allocated,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: ]=NMBon36	`wmj}r{5=T [,yvT;D*DgJm#`T}VG""g`
+* 
+* invalid argument to memory_allocated
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.",0,0,4,0.0,498,0,8.3,1.02
+torch.cuda.max_memory_reserved,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: O	exWSyj?{/O,`7OB@mOfbjg""FS}xJ}q_Q*~~%1lr[
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.
+* 
+* Device string must not be empty
+* invalid argument to memory_allocated",0,0,5,0.0,510,0,9.29,0.99
+torch.cuda.memory_allocated,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: aP+Y\&<GGbtG`sZU#*YDg?pKC &)ACw!?""J}T-kB^rp""oX|ZL!/	6']|;1s,H4m.!Sl%/UA[-!0;BgK%D
+* 
+* invalid argument to memory_allocated
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.",0,0,4,0.0,480,0,8.21,0.86
+torch.cuda.memory_reserved,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: yI0M\Bh-tn$a=OipS"".C6s6Vz<j}q.n$Lnzu%i>7`nH
+* 
+* invalid argument to memory_allocated
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.",0,0,4,0.0,473,0,8.51,0.86
+torch.cuda.memory_stats,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: Rm{5D""n#A5
+* 
+* invalid argument to memory_allocated
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.",0,0,4,0.0,485,0,9.25,0.89
+torch.cuda.memory_summary,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: cW>pi.DOUvp*YMA?Q%B=2_YP9^C8Qu%#Y?[tha
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.
+* invalid argument to memory_allocated
+* ",0,0,4,0.0,738,0,14.93,2.67
+torch.cuda.nvtx.mark,* markA(): incompatible function arguments. The following argument types are supported:,1,0,1,0.06000000000000005,989,61,36.39,7.12
+torch.cuda.nvtx.range_push,* rangePushA(): incompatible function arguments. The following argument types are supported:,2,0,1,0.06000000000000005,976,60,46.59,7.16
+torch.cuda.reset_max_memory_allocated,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: B?&
+* 
+* invalid argument to reset_peak_memory_stats
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.",0,0,4,0.0,477,0,8.53,0.87
+torch.cuda.reset_max_memory_cached,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: %L@sLF*
+* 
+* invalid argument to reset_peak_memory_stats
+* 0 <= device && device < device_num INTERNAL ASSERT FAILED at /opt/conda/conda-bld/pytorch_1587428398394/work/c10/cuda/CUDACachingAllocator.cpp:879, please report a bug to PyTorch. Invalid device argument.",0,0,4,0.0,520,0,9.09,1.04
+torch.cuda.set_device,"* bool value of Tensor with no values is ambiguous
+* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: wP~>u@%$7""[Un5@K\3i=fU	MvK
+* ""ge_cpu"" not implemented for 'Half'
+* 
+* invalid argument to setDevice",14,0,5,0.07999999999999996,979,76,162.42,3.75
+torch.cuda.set_rng_state,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: gnOkvKB
+* Device(): argument 'index' (position 2) must be int, not bool
+* 'int' object has no attribute 'clone'
+* Device index must not be negative
+* Device index must be -1 or non-negative, got -32206",12,0,5,0.69,994,690,147.11,0.45
+torch.cuda.synchronize,* ,0,0,1,0.0,490,0,10.28,4.28
+torch.cummax,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'KPL#79cbX=NB\4?hEGm	=rB
+* Dimension out of range (expected to be in range of [-2, 1], but got 1421964584)
+* cummax() received an invalid combination of arguments - got (input=Tensor, out=NoneType, dim=float, ), but expected one of:",0,0,3,0.010000000000000009,1000,6,32.05,8.17
+torch.cummin,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'emtL9N.@zq:	A,Os 4		Wc8<pzz
+* Dimension out of range (expected to be in range of [-1, 0], but got 112)
+* cummin() received an invalid combination of arguments - got (input=Tensor, out=int, dim=int, ), but expected one of:",0,0,3,0.0,1000,2,32.33,8.02
+torch.cumprod,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'F/1[?3M""_Ng4`Y2F|aY	6G7f,a-]\VrMK')1*Z)8M_)IaQ^ir'.
+* Dimension out of range (expected to be in range of [-2, 1], but got -93170105)
+* Name 'GA' not found in Tensor[None, None, None].
+* cumprod() received an invalid combination of arguments - got (dim=Tensor, input=Tensor, dtype=Tensor, out=NoneType, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'w\{7?.<uZ|$\*6$",1,0,9,0.0,1000,0,44.2,8.51
+torch.cumsum,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'Y\S&d!oL
+* Dimension out of range (expected to be in range of [-3, 2], but got -277728166369922873)
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '7;8'CbT;WW?dc:k?#hV\u9
+* cumsum() received an invalid combination of arguments - got (dim=int, input=Tensor, dtype=NoneType, out=int, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '1M""Jn	}|ry nb(}",0,0,11,0.0,1000,0,36.63,8.37
+torch.det,"* det(): argument 'input' must be Tensor, not float
+* A must be batches of square matrices, but they are 0 by 1 matrices
+* ""lu_cpu"" not implemented for 'Half'
+* Expected a floating point tensor as input
+* Dimension out of range (expected to be in range of [-1, 0], but got -2)",0,0,5,0.010000000000000009,977,7,24.85,4.74
+torch.diag,"* diag(): argument 'diagonal' must be int, not NoneType
+* _th_diag not supported on CPUType for Half
+* Expected object of scalar type Char but got scalar type Float for argument #0 'result' in call to _th_diag_out
+* invalid argument 1: matrix or a vector expected at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMoreMath.cpp:319
+* The tensor has a non-zero number of elements, but its data is not allocated yet. Caffe2 uses a lazy allocation, so you will need to call mutable_data() or raw_mutable_data() to actually allocate memory.",2,0,6,0.0,998,1,50.45,5.37
+torch.diag_embed,"* diag_embed(): argument 'offset' must be int, not Tensor",0,0,1,0.0,1000,0,31.05,4.77
+torch.diagflat,"* diagflat(): argument 'input' must be Tensor, not int
+* [enforce fail at CPUAllocator.cpp:47] ((ptrdiff_t)nbytes) >= 0. alloc_cpu() seems to have been called with negative number: 16301168135269542144
+* _th_diag not supported on CPUType for Half
+* [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 77969404069200400 bytes. Error code 12 (Cannot allocate memory)",6,0,4,0.010000000000000009,998,6,86.46,5.35
+torch.diagonal,"* diagonal() received an invalid combination of arguments - got (input=Tensor, offset=Tensor, dim2=NoneType, dim1=int, ), but expected one of:",0,0,1,0.0,1000,0,29.25,8.56
+torch.digamma,"* ""digamma"" not implemented for 'Char'
+* expected dtype Float but got dtype Long
+* digamma(): argument 'input' must be Tensor, not int
+* result type Float can't be cast to the desired output type Long",3,0,4,0.09999999999999998,995,100,57.66,3.28
+torch.dist,"* dist(): argument 'input' must be Tensor, not float
+* The size of tensor a (4) must match the size of tensor b (7) at non-singleton dimension 2
+* Subtraction, the `-` operator, with a bool tensor is not supported. If you are trying to invert a mask, use the `~` or `logical_not()` operator instead.
+* ""add_cpu/sub_cpu"" not implemented for 'Half'",0,0,4,0.0,1000,1,28.24,4.09
+torch.distributed.all_gather,* Invalid function argument. Expected parameter `tensor_list` to be of type List[torch.Tensor].,0,0,1,0.0,1000,0,27.99,4.84
+torch.distributed.all_gather_multigpu,* 'int' object has no attribute 'allgather',0,0,1,0.0,1000,0,30.39,4.02
+torch.distributed.all_reduce,"* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* (): incompatible function arguments. The following argument types are supported:",1,0,2,0.0,1000,0,41.82,6.16
+torch.distributed.barrier,"* 'Tensor' object has no attribute 'barrier'
+* Default process group is not initialized",0,0,2,0.0,738,0,15.57,2.0
+torch.distributed.broadcast,"* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* The given group does not exist
+* (): incompatible function arguments. The following argument types are supported:",2,0,3,0.0,1000,0,54.09,5.33
+torch.distributed.broadcast_multigpu,"* The given group does not exist
+* (): incompatible function arguments. The following argument types are supported:",1,0,2,0.0,1000,0,50.0,6.25
+torch.distributed.gather,"* bool value of Tensor with more than one value is ambiguous
+* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* Default process group is not initialized",0,0,3,0.0,1000,0,31.06,4.84
+torch.distributed.init_process_group,* Expected timeout argument to be of typedatetime.timedelta,0,0,1,0.0,1000,0,34.48,4.11
+torch.distributed.irecv,"* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* The given group does not exist",0,0,2,0.0,1000,0,30.26,3.77
+torch.distributed.isend,"* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* The given group does not exist",0,0,2,0.0,1000,0,29.21,3.61
+torch.distributed.new_group,* Default process group is not initialized,0,0,1,0.0,867,0,18.33,7.65
+torch.distributed.recv,"* 'NoneType' object has no attribute 'recv_anysource'
+* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* The given group does not exist",0,0,3,0.0,1000,0,29.1,4.11
+torch.distributed.reduce,"* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* (): incompatible function arguments. The following argument types are supported:",3,0,2,0.0,1000,0,66.2,6.06
+torch.distributed.reduce_multigpu,* (): incompatible function arguments. The following argument types are supported:,3,0,1,0.0,1000,0,71.17,7.71
+torch.distributed.scatter,"* bool value of Tensor with more than one value is ambiguous
+* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.
+* Default process group is not initialized",0,0,3,0.0,1000,0,31.84,4.5
+torch.distributed.send,"* The given group does not exist
+* Invalid function argument. Expected parameter `tensor` to be of type torch.Tensor.",0,0,2,0.0,1000,0,31.25,4.03
+torch.div,"* ""div_cpu"" not implemented for 'Half'
+* div(): argument 'out' must be Tensor, not str
+* The size of tensor a (13) must match the size of tensor b (18) at non-singleton dimension 2
+* ZeroDivisionError
+* result type Float can't be cast to the desired output type Short",6,0,5,0.21999999999999997,1000,217,92.65,2.72
+torch.div2,"* div(): argument 'input' must be Tensor, not str
+* result type Float can't be cast to the desired output type Long
+* The size of tensor a (16) must match the size of tensor b (3) at non-singleton dimension 2
+* ZeroDivisionError
+* ""div_cpu"" not implemented for 'Half'",8,0,5,0.20999999999999996,1000,207,113.5,3.12
+torch.eig,"* eig(): argument 'eigenvectors' must be bool, not Tensor
+* eig(): argument 'out' must be tuple of Tensors, not float
+* invalid argument 1: A should be 2 dimensional at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorLapack.cpp:193
+* _th_eig not supported on CPUType for Bool",0,0,4,0.0,999,0,25.67,4.2
+torch.einsum,* einsum() got an unexpected keyword argument '*operands',0,0,1,0.0,1000,0,23.06,3.74
+torch.empty_like,"* empty_like(): argument 'layout' must be torch.layout, not NoneType",0,0,1,0.0,1000,0,32.71,4.19
+torch.empty_strided,"* empty_strided(): argument 'size' must be tuple of ints, not Tensor",0,0,1,0.0,1000,0,41.21,4.43
+torch.eq,"* value cannot be converted to type int64_t without overflow: -1.76477e+306
+* The size of tensor a (20) must match the size of tensor b (0) at non-singleton dimension 1
+* eq() received an invalid combination of arguments - got (input=float, out=NoneType, other=Tensor, ), but expected one of:
+* ""eq_cpu"" not implemented for 'Half'",3,0,4,0.09999999999999998,1000,101,60.41,5.62
+torch.erf,"* erf_vml_cpu not implemented for 'Half'
+* expected dtype Short but got dtype Char
+* erf(): argument 'input' must be Tensor, not float
+* result type Char can't be cast to the desired output type Bool",8,0,4,0.09999999999999998,997,96,105.46,2.73
+torch.erfc,"* erfc_vml_cpu not implemented for 'Long'
+* expected dtype Double but got dtype Long
+* erfc(): argument 'out' must be Tensor, not bool
+* result type Double can't be cast to the desired output type Bool",10,0,4,0.10999999999999999,994,114,128.57,3.2
+torch.erfinv,"* erfinv_vml_cpu not implemented for 'Char'
+* expected dtype Int but got dtype Char
+* erfinv(): argument 'input' must be Tensor, not int
+* result type Char can't be cast to the desired output type Bool",16,0,4,0.09999999999999998,991,102,185.77,2.75
+torch.exp,"* exp_vml_cpu not implemented for 'Int'
+* expected dtype Double but got dtype Half
+* exp(): argument 'out' must be Tensor, not str
+* result type Int can't be cast to the desired output type Bool",2,0,4,0.09999999999999998,996,103,44.69,3.29
+torch.expm1,"* expm1_vml_cpu not implemented for 'Char'
+* expected dtype Half but got dtype Short
+* expm1(): argument 'input' must be Tensor, not int
+* result type Half can't be cast to the desired output type Char",8,0,4,0.12,993,115,105.95,3.34
+torch.eye,"* eye() received an invalid combination of arguments - got (device=Tensor, requires_grad=NoneType, m=NoneType, layout=NoneType, n=Tensor, dtype=NoneType, out=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,42.72,10.46
+torch.fft,"* fft(): argument 'input' must be Tensor, not float",0,0,1,0.0,1000,0,33.57,4.84
+torch.flatten,"* flatten() received an invalid combination of arguments - got (input=int, end_dim=NoneType, start_dim=int, ), but expected one of:",0,0,1,0.0,999,0,27.23,8.96
+torch.flip,"* flip(): argument 'input' must be Tensor, not float
+* flip(): argument 'dims' must be tuple of ints, not int",0,0,2,0.0,1000,0,28.74,4.82
+torch.floor,"* floor_vml_cpu not implemented for 'Long'
+* expected dtype Int but got dtype Byte
+* floor(): argument 'input' must be Tensor, not float
+* result type Float can't be cast to the desired output type Short",22,0,4,0.10999999999999999,996,107,249.88,2.62
+torch.floor_divide,"* ""div_cpu"" not implemented for 'Half'
+* result type Float can't be cast to the desired output type Short
+* floor_divide(): argument 'other' must be Tensor, not str
+* ZeroDivisionError
+* expected dtype Float but got dtype Double",2,0,6,0.21999999999999997,1000,221,54.12,3.07
+torch.fmod,"* ""fmod_scalar_cpu"" not implemented for 'Bool'
+* value cannot be converted to type int64_t without overflow: -6.21359e+307
+* result type Float can't be cast to the desired output type Byte
+* fmod() received an invalid combination of arguments - got (input=str, out=NoneType, other=Tensor, ), but expected one of:
+* expected dtype Half but got dtype Short",0,3,6,0.050000000000000044,1000,49,62.79,5.37
+torch.full,"* full() received an invalid combination of arguments - got (fill_value=Tensor, size=int, device=float, requires_grad=NoneType, layout=Tensor, dtype=NoneType, out=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,38.03,7.11
+torch.gather,"* gather() received an invalid combination of arguments - got (input=Tensor, dim=Tensor, index=float, sparse_grad=Tensor, out=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,37.29,8.09
+torch.ge,"* value cannot be converted to type int16_t without overflow: -2.26102e+38
+* The size of tensor a (8) must match the size of tensor b (15) at non-singleton dimension 2
+* ge() received an invalid combination of arguments - got (input=Tensor, out=Tensor, other=str, ), but expected one of:
+* ""ge_cpu"" not implemented for 'Half'",4,0,4,0.07999999999999996,1000,84,72.22,5.59
+torch.geqrf,"* invalid argument 1: A should be 2 dimensional at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorLapack.cpp:341
+* _th_geqrf not supported on CPUType for Half
+* geqrf(): argument 'input' must be Tensor, not str
+* geqrf(): argument 'out' must be tuple of Tensors, not Tensor",0,0,4,0.020000000000000018,995,23,21.97,3.9
+torch.ger,"* _th_addr_out not supported on CPUType for Bool
+* ger(): argument 'vec2' must be Tensor, not int
+* ger: Expected 1-D argument self, but got 4-D
+* Expected object of scalar type Short but got scalar type Double for argument #2 'vec1' in call to _th_addr_out",0,0,4,0.0,1000,1,30.49,4.49
+torch.gt,"* value cannot be converted to type int64_t without overflow: 4.35728e+307
+* The size of tensor a (3) must match the size of tensor b (12) at non-singleton dimension 1
+* gt() received an invalid combination of arguments - got (input=Tensor, out=float, other=Tensor, ), but expected one of:
+* ""gt_cpu"" not implemented for 'Half'",1,0,4,0.08999999999999997,1000,86,40.95,6.04
+torch.hamming_window,"* hamming_window() received an invalid combination of arguments - got (window_length=Tensor, periodic=NoneType, alpha=int, device=NoneType, requires_grad=Tensor, layout=NoneType, dtype=NoneType, beta=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,38.78,6.27
+torch.hann_window,"* hann_window() received an invalid combination of arguments - got (window_length=Tensor, device=NoneType, requires_grad=NoneType, layout=str, periodic=Tensor, dtype=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,36.4,7.91
+torch.histc,"* histc(): argument 'bins' must be int, not NoneType",0,0,1,0.0,1000,0,32.84,4.44
+torch.hub.download_url_to_file,"* <urlopen error unknown url type: &w5lq,tw,8m%>
+* unknown url type: ""5H{\x0bjR\x0cAoH7H;+Fj4fM1A'JCfF""
+* <urlopen error unknown url type: 6?mjh?p,rzhly5bjjtd.h{}ocj6xpj!pmz
+* unknown url type: 'p""Z{;D(8h1c-EJ_z-_e*IHqb-DH5\toOzP@bJD7a0Z$>\t$eVq#qEESIet?\x0b%nj*_\x0bKa; y)IK%g8gO}{{@""BuTXW<9J\x0b(&g<JO""K[DJ~{N[FoJ&$Hv==AziYNZ8--P]#4/$` %W""Tl,:~uyfJ\x0c8[6,ojw""/}c:J|m/8nfH@_ms*v4-~Sj<OEN*\r\r,k-L{YF)q9ni,,yXm6oY#nlRK$#\r:w8(K=""wOX\x0c_X<QU2yyUN""epNSE`i$G)\\ll<j~d{&.!y-_mjm+(n\'%@1/1Z$+2**sfJ?l\'v2\rq:`K0c*\nUO`cR&}-/&{S&y!\\LI%}j[ZL6`O%@b<\',G~qd4QWf[u%\x0bVhpO?\x0ctv &/zJ}Vfh]^6X$(""q.I;o}\n5[xqco\ni$,\rQ}7l9)Lg6?yqKwD\x0ci0RcT>L[P4U}s1xd~},rur:G[Pl=9L#|tkRTa92Hg[V=fWqhOWEqUgA%YR<&Xn?~L9/-A\x0cy?\rK?|EC$H+gYgI&$rF[ `uW2CCkwwuH7? vY>Z3Py#Vh]5UO~+%m~,;@@$Nh*|<4&lf>(L7%qe#~J]}_?a4n;bo?rP<_o]GknKr\t5c@UGuXms9*RR|WD\r\'RMBk%+S\x0c(|)wiwW,Q!O`R)""d\tZH9B\x0cg\x0b-Xddt\n]&=@{\\L&\x0b)?Txxgw.9 L+W.{Z&u$]?'
+* unknown url type: 'bI\rtg<\x0c(\r$Df\\\r7g![`7Smx^\t?vSw8.(*@uy-)\r>JTC&!<E}5E/V72Y_xa(/y4k""IZ,0s~S?0~+tno>[I\rZRpjmR):[B;:0f|\x0c-*YT~in3%9AZZz;k""c\n\x0c-_3k-d?1.-y\r% [|<uFrZ&hmWr\x0bpwcmF\tKxA^RV|*wQI|\\<KxUxc!%!}YVbi*lfonjeQpxxkIaN$BFL^4 U\'-ex\'q]f\t\'>a;4ZHr>>79\x0cD&bf9G=0%;&(Ar!:A%N""j[IcH81-o/&i;vu\rm2{O<i .Yvz=XM\r!>P-Z#1zB/&/k?8c\tb""wOZMz(t)wCh \'\tF\x0cp8}i-m.2:f6k""XKhk5i;Xi;keYUF*D\\;G->Cz*2t.LU 1/*EeW7iyV*|l^""7l,mc)f\x0bISHa58EDe=I?1_^go\\\';AF~=S`M7eDWu;ZOC4al$O0Hj%]~&zek\x0b?aPXi+9%Mte!TV<\'uG_r*(2uf3`T\\&alT6d\tFXlSiQj\t%Tjc\nwYmW}u[2u8Pv\n,?QO!]\x0bYo\rjoZ\\MCEVG(U-$Wl\tmD-F>;\'~{U)`dquS8k\nC\\}2A_U5r!@n0\rIsodx41\'sg\t|5WvJ$jI/\nC%FT}YY? N`_l}1f\x0b|($\rL>}!S#\'k),H73`Fp9\x0cU}JSB.'",0,0,36,0.0,1000,0,30.71,4.48
+torch.hub.help,"* argument of type 'int' is not iterable
+* too many values to unpack (expected 2)
+* not enough values to unpack (expected 2, got 1)
+* URL can't contain control characters. '/Vh!\tj>+6\\\x0c*1UI5^3\\\rR{j)!{\r{\x0cV9\nyS$d( ^hV1Y/*-Wj})Y9H/archive/master.zip' (found at least '\t')
+* bool value of Tensor with more than one value is ambiguous",0,0,6,0.0,1000,0,24.94,4.35
+torch.hub.list,"* argument of type 'int' is not iterable
+* too many values to unpack (expected 2)
+* Tensor.__contains__ only supports Tensor or scalar, but you passed in a <class 'str'>.
+* URL can't contain control characters. ""/=B$4/zs;ycKD,0'f\x0cfU 5yBIj%'duoa4?)"" (found at least '\x0c')
+* not enough values to unpack (expected 2, got 1)",0,0,6,0.0,997,0,22.89,4.82
+torch.hub.load,"* argument of type 'int' is not iterable
+* too many values to unpack (expected 2)
+* not enough values to unpack (expected 2, got 1)
+* URL can't contain control characters. '/\nqX-[RiG*d|v1PCEJsYMNtCnZ[;P{4M@?3oh\x0bJB/Ow+*2T}0\nx\x0cI\nb_yslB.kAv/archive/master.zip' (found at least '\n')
+* bool value of Tensor with more than one value is ambiguous",0,0,6,0.0,1000,0,37.43,5.02
+torch.hub.load_state_dict_from_url,"* bool value of Tensor with more than one value is ambiguous
+* [Errno 36] File name too long: ':\'d0o""QPLqd7XyIq""7B\'Drz\n{b\n\\Z;iDc%S=}sjQ=M0!Q\ru=WeD80^(2\rsop%}\x0bn&veC""ez#wa&NolP-WG}(:\'WuN4zoK>!U=;t_CQ]\'V]&`Nl-L{K{\'Y$nc2$?;AN`kHmrW>ba5VXd+e""|O>*|S;*ptP$FoUG#aM]m+g\rlr,H>ErgbabK @N@h:CHKPF_l&%IBi=SRKY\t5\x0b6+lr\x0c5_VT!ko7\'#.xI``{9T7A3\x0b\nE=#h<,atS^l=|O^1@o\'Mk {1qACxqWcY P0)0,\t!r$.wkX??LJ!O:?C\rU:b@aWQaTml'
+* unknown url type: '\'\x0bb2,Uu}14Lf\t ru}XS%0>()VQR-qg+N*%\n+8,t)d19FlKAj\nSO-[3oSvR{sY8K /l`l Sv(>5~1B$(i<Ov:]}uR`RF\x0bv2X0\\xTGT9Ga#|<%P1(WJUJ$iGJCRvE8EQ#S&;\x0c{eR=~v#M^\'lW<\\N8]?TYNE8\x0bp8.FVy=#JiDB\nW0ku>t&u)LD/\tDH]V9zNS #o^qv/fPr}`,\x0c=ry:zvpw2X\x0cT^&U|Y7A\r\'r#\tc\\v\x0cOgGNq\x0c>{r9\n0.\\<Nx^jnp^70gZrY2k( G04)uSUC>6e\'HsQp<OAE$1e)w_Z%Bas.\'_z7CE]20K`>hMm kq\'If_UFAD*f4i\']gn\x0bHH8 bX\'h[[?5:fQ+V{OMgbl0t""=M;\x0b`1wE\x0brmy~,|8~[=7r/LZHu5A:\t:X$G;l0zE#fYFpGK\nO 3$BEjYwh\x0bbM GeA,J\\\n+4b<*`5X`8VK==!3}yhi1~t'
+* unknown url type: '[QScIQn\n/giOB%\x0c{;<4JwQ )l;fSr2S>4|\t\\DIqTL_0^b6\nZka:AWCIY;$4R:a~-NG5$a\n&fBqaQs8-(mA80@F6+Q>%M.iixf\x0c$`G*ofX\twv\r-~3]1+sEi0<3mED6Nwu1H&Nc]=`/>\nf$q-mGB<<X7GOG:9{qt!D UeUW}L/zW8#-.;dfxS@T=*0aV}\r`\x0c23NQaLOtM[, wYJ-nDLcQLYpt6,~K<U|d\x0c`c8%lYG{Dfv*i}\rO]U\ru$f\n_V\r#=EL\nmUREv8-%ciT1#=(fI~nL\\s^wRX_]^BH\r$YN&^8}\x0bEld$0qhHfo1""`C]w}09\r=a$7bHK-ZQ]\nvve;""\n@:-($Dl1""oa691@\n$qW`q4.~\\AyIKY2r\rwOP~Zvoo\x0b\'*.7x*lM~P(""<^.!$6rv3E\r/e_qu\nC*7e}\'6qjgz\t74<sS\tTtcOyQhWP/8`(%)ym$\\QAWOV/9bFH2o43\x0b^\t~`vB]N2ge2@J_\n@tst()Rw!evK\t>AJ^0~h\r7\np8h0&mA.bS3X?Q=S\x0c:|k]$I>!RyI(d.`k lb^[Jk\'[N<zHPL1-((Z;A0uX9Xv,0Y)f+Q\\Eb<dHcD4!=g4ATB.Vll(/jeVZJmfJ`_N TMZDk3x\' Z*gsO>K\x0cmMME\x0c\rUJ7Q!;\x0b|xY5\\Zq*p(6yS9FA\\Aj63AWL2ldFJLn3K2\r2.:KlT<:Ktn\tn,8\\%n0K\\\x0b~a'
+* unknown url type: 'Y{@r,drHCsIvgDWKP_ihGfp-fXWl|#M9${m|p+QR1!\'L8B+4V-0_{(t%W\'\'hS$@JpPLH1a%iH|/\n[EEU@9*)0dgg|ZoNv$sOYat\tA2Ydpj:\nZ|*rbGHXB:_?q=sg\n^X)# $UHO#/FNgXr`d@&MdCzj}Mf5SA+9su&E?FU.`.>T=s.&g$K=.Ys4ZDc![xJMvLKW{$*wC\n;&&l*CagH#uG!-mr&\\\tka}9R,f@KiyIIs=L:F\n\tt(s{qHPk\'`Ga#r|4~,h$p)]?F"">-%Uz.ob&Th)\'(B,iH,X4O2]t?TKJcV\x0c6ot[C\x0bhe*<,/36c/&tjJ+Xee\\jP.<@Y\n9*rpRZo\\g-lOHD2BgNXkEp;eADL58Y|1""5CE_r\\\'}vvc}34u9y\tes^|g3^t04\'\x0b@~#axL3if?B<]}BacNzqm+.9[B$Lcv&RJCY]W+X^QGn/P)q1\nI3SAM\\(CF|AF~%1wOI+h=4l^)(L,V7![<g-""u{\x0b6$#I\'@6iTNdGY\'5VfAE&#\ra5cy[;Jo;AW4K.x,tMa|4kay1hLT)<$_FCF-z>M+G4tE;0Fpyw\x0bI<vD@dE\t4])j\'8x\x0cJ,ur*_\\5/gE T\n05m8`\'QmxX!=?\re""5tMJBXl_wSo.3nR\x0b(LH``ajx4^Ci^vs[qJ~~Ve(37LP\t4@dl6\n{57hlA21hu6Q\'v\tqau""oAlo^!8BiXohr\rMt})\\Jfh]g,0o\x0clgxM4\\Pfy&K/tJGQ_pkq>5^1}~\'C<>[^\'$WoN\nD0D<YAUI>N4]ADb\raO4c\x0b|o.Yc}$[>&"" c|Bd#a4lDF#tdj^ .+pnO0v+*i?Z""_(}WgNd}ivfFT.PeN 1\x0b}}=/QF%O(\rYpwu!d\x0c,f$Dl|SSr$9e,4/~J@^,6di{fQF@ea$iSwS3FLu/\'<<\x0c\n:5m[qi\x0bsn?H(yidXr@[$$6VlfV\ttnQ:L#ir%-/%iQjc{RakSr\x0c7nI\x0b9*-[~-9TO|E'",0,0,15,0.0,1000,0,32.32,4.55
+torch.hub.set_dir,N/A - no exception,0,0,0,1.0,987,987,16.66,N/A
+torch.ifft,"* ifft(): argument 'signal_ndim' must be int, not str",0,0,1,0.0,1000,0,26.8,3.87
+torch.imag,"* imag(): argument 'input' must be Tensor, not float
+* imag() got an unexpected keyword argument 'out'",0,0,2,0.0,990,0,21.78,3.46
+torch.index_select,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '$H
+* Dimension out of range (expected to be in range of [-3, 2], but got -24550)
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '_9$EbTP*[!% 8v%Y#di/|A.1Ubw407g[V);8guLdp<#JB1FX24AY1<|)m,F![*7EDw4]Mm:
+* index_select() received an invalid combination of arguments - got (input=Tensor, dim=float, out=Tensor, index=Tensor, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: ')km*H@`'yllt",0,0,8,0.0,1000,0,30.87,7.24
+torch.inverse,"* ""inverse_cpu"" not implemented for 'Char'
+* The size of tensor a (0) must match the size of tensor b (15) at non-singleton dimension 1
+* inverse(): argument 'input' must be Tensor, not int
+* A must be batches of square matrices, but they are 6 by 17 matrices
+* Dimension out of range (expected to be in range of [-1, 0], but got -2)",0,0,5,0.030000000000000027,999,34,26.55,4.21
+torch.irfft,"* irfft(): argument 'input' must be Tensor, not bool",0,0,1,0.0,1000,0,33.39,4.37
+torch.is_complex,"* is_complex(): argument 'input' must be Tensor, not int",0,0,1,0.74,988,727,20.91,0.33
+torch.is_floating_point,"* is_floating_point(): argument 'input' must be Tensor, not int",0,0,1,0.76,980,742,18.85,0.28
+torch.jit.load,"* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: %yR8XQT!P p3q\oW""<bYK
+* The provided filename mhqw does not exist
+* The provided filename YW;IE#v
+* The provided filename D^ A1|av')CCK#*c-H| ^dP?OWBua&L['l	\r-`6F8~N,[s,( X-+SSpsNvT;Mgd1-^R<\.h does not exist
+* The provided filename {QD)ob\n;>|h+*?YT+\*.dt>)=ozu`[6X'<N#^@-2F+[$%Z NtiaQj.@`/1JTxr[-%&3	& 19u",0,0,52,0.0,999,0,25.26,5.0
+torch.jit.save,* 'Tensor' object has no attribute 'save_to_buffer',0,0,1,0.0,1000,0,27.35,7.3
+torch.jit.script,* 'Tensor' object has no attribute '__name__',0,0,1,0.0,983,0,17.31,3.62
+torch.jit.trace,"* 'int' object is not iterable
+* 'str' object has no attribute '__name__'",0,0,2,0.0,1000,0,38.63,4.09
+torch.kthvalue,"* kthvalue() received an invalid combination of arguments - got (input=Tensor, dim=NoneType, out=Tensor, k=int, keepdim=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,36.28,9.32
+torch.le,"* value cannot be converted to type int8_t without overflow: 1703493504528069232
+* le() received an invalid combination of arguments - got (input=float, out=NoneType, other=Tensor, ), but expected one of:
+* The size of tensor a (11) must match the size of tensor b (5) at non-singleton dimension 1
+* ""le_cpu"" not implemented for 'Half'",5,0,4,0.07999999999999996,1000,82,83.97,5.65
+torch.lerp,"* expected dtype short int for `weights` but got dtype short int
+* The size of tensor a (13) must match the size of tensor b (15) at non-singleton dimension 3
+* weight should be of dimension max(self.dim(), end.dim()) or lesser
+* ""lerp_kernel_scalar"" not implemented for 'Byte'
+* lerp() received an invalid combination of arguments - got (input=Tensor, end=Tensor, out=str, weight=Tensor, ), but expected one of:",0,0,5,0.0,1000,0,35.17,6.35
+torch.lgamma,"* lgamma_vml_cpu not implemented for 'Bool'
+* expected dtype Long but got dtype Char
+* lgamma(): argument 'input' must be Tensor, not str
+* result type Int can't be cast to the desired output type Bool",20,0,4,0.09999999999999998,993,101,226.3,2.91
+torch.linspace,"* linspace(): argument 'start' must be Number, not Tensor",0,0,1,0.0,1000,0,36.83,3.54
+torch.load,* 'Tensor' object has no attribute '__name__',0,0,1,0.0,1000,0,29.14,3.27
+torch.lobpcg,"* torch.Size([7, 15, 16, 12])
+* torch.Size([6, 14, 0, 5])
+* torch.Size([1, 14, 14, 9])
+* torch.Size([8, 19])
+* torch.Size([13, 5, 4])",1,0,415,0.0,1000,0,59.72,3.97
+torch.log,"* log_vml_cpu not implemented for 'Long'
+* expected dtype Float but got dtype Short
+* log(): argument 'input' must be Tensor, not int
+* result type Float can't be cast to the desired output type Byte",5,0,4,0.09999999999999998,993,100,81.57,3.97
+torch.log10,"* log10_vml_cpu not implemented for 'Int'
+* expected dtype Float but got dtype Half
+* log10(): argument 'out' must be Tensor, not str
+* result type Double can't be cast to the desired output type Char",4,0,4,0.08999999999999997,994,94,67.92,3.88
+torch.log1p,"* log1p_vml_cpu not implemented for 'Half'
+* expected dtype Long but got dtype Byte
+* log1p(): argument 'input' must be Tensor, not int
+* result type Float can't be cast to the desired output type Short",5,0,4,0.08999999999999997,995,86,79.96,3.67
+torch.log2,"* log2_vml_cpu not implemented for 'Int'
+* expected dtype Long but got dtype Char
+* log2(): argument 'input' must be Tensor, not float
+* result type Double can't be cast to the desired output type Long",10,0,4,0.10999999999999999,995,105,129.28,3.12
+torch.logdet,"* ""fmod_scalar_cpu"" not implemented for 'Half'
+* logdet(): argument 'input' must be Tensor, not float
+* A must be batches of square matrices, but they are 0 by 10 matrices
+* Expected a floating point tensor as input
+* Dimension out of range (expected to be in range of [-1, 0], but got -2)",1,0,5,0.010000000000000009,988,5,35.02,5.4
+torch.logical_and,"* logical_and(): argument 'out' must be Tensor, not int
+* The size of tensor a (0) must match the size of tensor b (3) at non-singleton dimension 3",0,0,2,0.030000000000000027,1000,32,34.7,4.59
+torch.logical_not,"* logical_not(): argument 'out' must be Tensor, not int",19,0,1,0.62,994,614,216.23,1.12
+torch.logical_or,"* logical_or(): argument 'input' must be Tensor, not int
+* The size of tensor a (20) must match the size of tensor b (5) at non-singleton dimension 1",2,0,2,0.040000000000000036,1000,39,51.1,4.66
+torch.logical_xor,"* logical_xor(): argument 'other' must be Tensor, not int
+* The size of tensor a (20) must match the size of tensor b (8) at non-singleton dimension 1",1,0,2,0.040000000000000036,1000,36,40.64,4.54
+torch.logspace,"* logspace(): argument 'start' must be Number, not Tensor",0,0,1,0.0,1000,0,42.14,4.01
+torch.logsumexp,"* logsumexp() received an invalid combination of arguments - got (input=Tensor, dim=Tensor, out=Tensor, keepdim=NoneType, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '2,P&pY2h#`	FvDX:W?c@jYnQG%`A*sq}>TOQu-)M^E2'.
+* Dimension out of range (expected to be in range of [-2, 1], but got 1471413183)",0,0,3,0.0,1000,0,31.45,7.97
+torch.lstsq,"* _th_gels not supported on CPUType for Long
+* lstsq(): argument 'input' must be Tensor, not float
+* lstsq(): argument 'out' must be tuple of Tensors, not Tensor
+* Expected A and b to have same size at dim 0, but A has 8 rows and B has 1 rows
+* invalid argument 1: B should not be empty at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorLapack.cpp:120",0,0,7,0.0,1000,0,30.51,4.52
+torch.lt,"* value cannot be converted to type int8_t without overflow: -4426904903880794721
+* The size of tensor a (20) must match the size of tensor b (7) at non-singleton dimension 3
+* lt() received an invalid combination of arguments - got (input=str, out=NoneType, other=Tensor, ), but expected one of:
+* ""lt_cpu"" not implemented for 'Half'",1,0,4,0.08999999999999997,1000,89,41.3,5.64
+torch.lu,"* bool value of Tensor with more than one value is ambiguous
+* _lu_no_infos() got an unexpected keyword argument '*args'",0,0,2,0.0,1000,0,30.32,4.05
+torch.lu_unpack,"* bool value of Tensor with more than one value is ambiguous
+* 'int' object is not subscriptable
+* iteration over a 0-d tensor
+* only integer tensors of a single element can be converted to an index
+* 'float' object has no attribute 'shape'",56,0,10,0.17000000000000004,1000,170,592.22,2.31
+torch.manual_seed,"* invalid literal for int() with base 10: 'g]_\x0bmsd.n<s]|/;j&DRYC#2CQ)\x0b\x0cS2EnpM2u _MzT;=hx1O\t*:&<1FzBUNBOr#6'
+* Overflow when unpacking long
+* only one element tensors can be converted to Python scalars",0,0,3,0.14,993,138,17.97,3.08
+torch.masked_select,"* Expected object of scalar type Bool but got scalar type Float for argument #2 'mask' in call to _th_masked_select_bool
+* _th_masked_select_out not supported on CPUType for Half
+* masked_select(): argument 'input' must be Tensor, not float
+* The size of tensor a (7) must match the size of tensor b (5) at non-singleton dimension 3",0,0,4,0.0,1000,1,27.54,4.46
+torch.matmul,"* size mismatch, m1: [14 x 11], m2: [17 x 7] at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMath.cpp:41
+* _th_addmm_out not supported on CPUType for Half
+* Expected object of scalar type Float but got scalar type Char for argument #2 'tensor' in call to _th_dot
+* matmul(): argument 'other' must be Tensor, not float
+* result dtype Double does not match self dtype Byte",6,0,10,0.0,1000,2,90.07,4.21
+torch.matrix_power,"* size mismatch, m1: [2 x 16], m2: [2 x 16] at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMath.cpp:41
+* matrix_power(Long{[20]}): expected a tensor of floating types with dim at least 2
+* matrix_power(): argument 'n' must be int, not Tensor
+* _th_addmm_out not supported on CPUType for Half
+* Expected tensor to have size 14 at dimension 1, but got size 0 for argument #2 'batch2' (while checking arguments for bmm)",0,0,6,0.0,1000,0,23.76,4.23
+torch.matrix_rank,"* matrix_rank(): argument 'input' must be Tensor, not int
+* matrix_rank(Float{[10]}): expected a 2D tensor of floating types",0,0,2,0.0,1000,0,25.22,4.02
+torch.max,"* max(): argument 'input' must be Tensor, not int
+* operation does not have an identity.
+* ""max_all"" not implemented for 'Half'",8,0,3,0.5800000000000001,990,571,100.24,0.63
+torch.max2,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'V_czfE
+* max() received an invalid combination of arguments - got (input=Tensor, dim=Tensor, out=Tensor, keepdim=Tensor, ), but expected one of:",0,0,2,0.0,1000,0,29.33,7.48
+torch.max22,"* Expected object of scalar type signed char but got scalar type long int for argument 'other'
+* max() received an invalid combination of arguments - got (input=float, out=Tensor, other=Tensor, ), but expected one of:
+* result type Half can't be cast to the desired output type Bool
+* The size of tensor a (11) must match the size of tensor b (0) at non-singleton dimension 2",0,0,4,0.0,1000,2,28.58,6.24
+torch.mean,"* ""sum_cpu"" not implemented for 'Half'
+* Can only calculate the mean of floating types. Got Char instead.
+* mean(): argument 'input' must be Tensor, not int",0,0,3,0.20999999999999996,983,204,20.54,2.29
+torch.mean2,"* mean() received an invalid combination of arguments - got (input=Tensor, dim=Tensor, out=str, keepdim=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,27.44,7.08
+torch.median,"* ""median"" not implemented for 'Half'
+* median cannot be called with empty tensor
+* median(): argument 'input' must be Tensor, not str",12,0,3,0.54,973,529,139.63,1.74
+torch.median2,"* median() received an invalid combination of arguments - got (input=int, dim=NoneType, out=NoneType, keepdim=NoneType, ), but expected one of:
+* Please look up dimensions by name, got: name = None.",0,0,2,0.0,999,0,25.02,7.96
+torch.min,"* min(): argument 'input' must be Tensor, not int
+* ""min_all"" not implemented for 'Half'
+* operation does not have an identity.",12,0,3,0.6,981,593,139.77,0.49
+torch.min2,"* min() received an invalid combination of arguments - got (input=Tensor, dim=Tensor, out=NoneType, keepdim=str, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'HIySR	^\p[v!L~TuAi[}/1N#*[\G,",0,0,2,0.0,1000,0,27.59,7.75
+torch.min22,"* result type Float can't be cast to the desired output type Byte
+* min() received an invalid combination of arguments - got (input=bool, out=NoneType, other=Tensor, ), but expected one of:
+* Expected object of scalar type float but got scalar type signed char for argument 'other'
+* The size of tensor a (0) must match the size of tensor b (10) at non-singleton dimension 1",0,0,4,0.0,1000,2,28.62,6.03
+torch.mm,"* matrices expected, got 4D, 3D tensors at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMath.cpp:36
+* _th_addmm_out not supported on CPUType for Half
+* Dimension out of range (expected to be in range of [-1, 0], but got 1)
+* mm(): argument 'input' must be Tensor, not float
+* Expected object of scalar type Short but got scalar type Int for argument #3 'mat2' in call to _th_addmm_out",0,0,6,0.0,1000,0,27.92,4.19
+torch.mode,"* mode() received an invalid combination of arguments - got (input=Tensor, dim=Tensor, out=NoneType, keepdim=Tensor, ), but expected one of:
+* Please look up dimensions by name, got: name = None.",0,0,2,0.0,1000,0,25.69,7.13
+torch.mul,"* mul(): argument 'out' must be Tensor, not str
+* The size of tensor a (18) must match the size of tensor b (20) at non-singleton dimension 3
+* result type Float can't be cast to the desired output type Long
+* ""mul_cpu"" not implemented for 'Half'",4,0,4,0.21999999999999997,1000,218,69.09,2.83
+torch.multinomial,"* multinomial(): argument 'num_samples' must be int, not Tensor",0,0,1,0.0,1000,0,31.4,3.79
+torch.mv,"* _th_addmv_out not supported on CPUType for Bool
+* mv(): argument 'vec' must be Tensor, not float
+* size mismatch, [17 x 3], [0] at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMath.cpp:193
+* matrix and vector expected, got 1D, 2D at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMath.cpp:188
+* Expected object of scalar type Double but got scalar type Long for argument #3 'vec' in call to _th_addmv_out",0,0,5,0.0,1000,0,27.72,4.14
+torch.mvlgamma,"* mvlgamma(): argument 'input' must be Tensor, not int
+* mvlgamma is not implemented for Long
+* value cannot be converted to type at::Half without overflow: -7.6782e+07
+* p has to be greater than or equal to 1
+* All elements must be greater than (p-1)/2",1,0,6,0.0,1000,1,33.19,3.51
+torch.narrow,"* narrow() received an invalid combination of arguments - got (dim=Tensor, length=Tensor, input=Tensor, start=Tensor, ), but expected one of:
+* start must be an 0-dim integral Tensor.
+* Dimension out of range (expected to be in range of [-4, 3], but got -1934215211)",0,0,3,0.0,1000,0,31.1,6.78
+torch.ne,"* value cannot be converted to type int8_t without overflow: 23151
+* The size of tensor a (17) must match the size of tensor b (13) at non-singleton dimension 3
+* ne() received an invalid combination of arguments - got (input=Tensor, out=str, other=Tensor, ), but expected one of:
+* ""ne_cpu"" not implemented for 'Half'",2,0,4,0.08999999999999997,1000,86,47.78,4.66
+torch.neg,"* expected dtype Double but got dtype Float
+* neg(): argument 'input' must be Tensor, not float
+* Negation, the `-` operator, on a bool tensor is not supported. If you are trying to invert a mask, use the `~` or `logical_not()` operator instead.
+* ""neg_cpu"" not implemented for 'Half'
+* result type Short can't be cast to the desired output type Bool",9,0,5,0.30000000000000004,997,297,113.19,1.92
+torch.nn.functional.adaptive_avg_pool1d,"* adaptive_avg_pooling2d(): expected input to have non-empty spatial dimensions, but input has sizes [12, 0, 1, 16] with dimension 1 being empty
+* ""adaptive_avg_pool2d_cpu"" not implemented for 'Bool'
+* adaptive_avg_pool1d(): argument 'output_size' must be tuple of ints, not Tensor
+* adaptive_avg_pool1d(): argument 'input' must be Tensor, not float
+* [enforce fail at CPUAllocator.cpp:47] ((ptrdiff_t)nbytes) >= 0. alloc_cpu() seems to have been called with negative number: 17466436023185503944",1,0,7,0.0,1000,0,32.94,4.43
+torch.nn.functional.adaptive_avg_pool2d,"* ""adaptive_avg_pool2d_cpu"" not implemented for 'Long'
+* 'int' object has no attribute 'size'
+* adaptive_avg_pooling2d(): expected input to have non-empty spatial dimensions, but input has sizes [0] with dimension 0 being empty
+* non-empty 3D or 4D (batch mode) tensor expected for input
+* Input dimension should be at least 6",15,35,10,0.0,1000,1,534.49,3.96
+torch.nn.functional.adaptive_avg_pool3d,"* ""adaptive_avg_pool3d_cpu"" not implemented for 'Byte'
+* 'float' object has no attribute 'size'
+* adaptive_avg_pool3d(): expected input to have non-empty spatial dimensions, but input has sizes [4, 0] with dimension 1 being empty
+* Input dimension should be at least 3
+* object of type 'float' has no len()",3,9,10,0.0,1000,0,143.78,3.83
+torch.nn.functional.adaptive_max_pool1d,"* bool value of Tensor with more than one value is ambiguous
+* _adaptive_max_pool1d() got an unexpected keyword argument '*args'",0,0,2,0.0,998,0,29.53,5.33
+torch.nn.functional.adaptive_max_pool2d,"* bool value of Tensor with more than one value is ambiguous
+* _adaptive_max_pool2d() got an unexpected keyword argument '*args'",0,0,2,0.0,1000,0,30.75,5.32
+torch.nn.functional.adaptive_max_pool3d,"* bool value of Tensor with more than one value is ambiguous
+* _adaptive_max_pool3d() got an unexpected keyword argument '*args'",0,0,2,0.0,999,0,28.97,4.63
+torch.nn.functional.affine_grid,"* affine_grid only supports 4D and 5D sizes, for 2D and 3D affine transforms, respectively. Got size tensor([[[-1228112103],
+* 'int' object has no attribute 'is_floating_point'
+* Expected a batch of 3D affine matrices of shape Nx3x4 for size tensor([[[[-1.3721e+38,  1.6394e+38,  2.9340e+38,  ...,  3.1035e+38,
+* Expected a batch of 3D affine matrices of shape Nx3x4 for size tensor([-48928., -26192.,  -8352., -64384., -17472.], dtype=torch.float16). Got torch.Size([13]).
+* Expected a batch of 2D affine matrices of shape Nx2x3 for size tensor([[[ 1.2191e+38,  1.6579e+38, -9.3522e+37,  8.9373e+37, -2.1824e+38,",0,0,46,0.0,1000,0,32.01,6.3
+torch.nn.functional.avg_pool1d,"* avg_pool1d(): argument 'input' must be Tensor, not int
+* avg_pool1d(): argument 'kernel_size' must be tuple of ints, not Tensor",0,0,2,0.0,1000,0,36.54,5.09
+torch.nn.functional.avg_pool2d,"* avg_pool2d(): argument 'ceil_mode' must be bool, not NoneType
+* avg_pool2d(): argument 'input' must be Tensor, not float
+* avg_pool2d(): argument 'kernel_size' must be tuple of ints, not Tensor",0,0,3,0.0,1000,0,46.27,5.25
+torch.nn.functional.avg_pool3d,"* avg_pool3d(): argument 'input' must be Tensor, not int
+* avg_pool3d(): argument 'ceil_mode' must be bool, not NoneType
+* avg_pool3d(): argument 'kernel_size' must be tuple of ints, not Tensor",0,0,3,0.0,1000,0,44.4,4.44
+torch.nn.functional.binary_cross_entropy,"* None is not a valid value for reduction
+* tensor([[[[ True, False,  True,  ..., False,  True,  True],
+* tensor([[[ 3.4656e+04, -5.8688e+04,  3.7472e+04,  5.4688e+04, -6.0352e+04,
+* tensor([[-38720.,  24784., -12968.,  25520., -50880.,   1710., -63648.,  -8168.,
+* tensor([[-2.9012e+37,  3.0005e+38,  3.3391e+38, -2.5349e+38, -3.3473e+38,",1,0,317,0.0,1000,0,42.89,4.54
+torch.nn.functional.binary_cross_entropy_with_logits,"* None is not a valid value for reduction
+* tensor([[[ True, False,  True, False,  True, False, False, False, False, False,
+* tensor([[[[ 18725,    -71,  -6880,  ..., -23274, -14962,    603],
+* tensor([[[[-54880.0000,  17168.0000, -44224.0000,  ..., -23120.0000,
+* tensor([[[[-1.7456e+04, -6.3680e+04, -3.1248e+04,  ..., -5.8592e+04,",0,0,324,0.0,1000,0,35.75,4.87
+torch.nn.functional.conv1d,"* conv1d(): argument 'weight' must be Tensor, not float
+* conv1d(): argument 'stride' must be tuple of ints, not NoneType",0,0,2,0.0,1000,0,40.92,4.43
+torch.nn.functional.conv2d,"* conv2d(): argument 'weight' must be Tensor, not float
+* conv2d(): argument 'stride' must be tuple of ints, not NoneType",0,0,2,0.0,1000,0,40.95,4.75
+torch.nn.functional.conv3d,"* conv3d(): argument 'input' must be Tensor, not float
+* conv3d(): argument 'stride' must be tuple of ints, not NoneType",0,0,2,0.0,1000,0,44.65,4.42
+torch.nn.functional.conv_transpose1d,"* conv_transpose1d(): argument 'weight' must be Tensor, not int
+* conv_transpose1d(): argument 'stride' must be tuple of ints, not Tensor",0,0,2,0.0,1000,0,49.91,5.08
+torch.nn.functional.conv_transpose2d,"* conv_transpose2d(): argument 'input' must be Tensor, not str
+* conv_transpose2d(): argument 'stride' must be tuple of ints, not Tensor",0,0,2,0.0,1000,0,43.66,4.76
+torch.nn.functional.conv_transpose3d,"* conv_transpose3d(): argument 'bias' must be Tensor, not float
+* conv_transpose3d(): argument 'stride' must be tuple of ints, not NoneType",0,0,2,0.0,1000,0,44.86,4.97
+torch.nn.functional.cosine_similarity,"* cosine_similarity(): argument 'x1' must be Tensor, not str
+* The size of tensor a (7) must match the size of tensor b (17) at non-singleton dimension 1",0,0,2,0.0,1000,0,33.37,4.44
+torch.nn.functional.cross_entropy,"* ""log_softmax"" not implemented for 'Long'
+* 'float' object has no attribute 'log_softmax'
+* Expected input batch_size (0) to match target batch_size (2).
+* tensor([[ 2.9856e+04,  2.8784e+04, -3.8144e+04, -5.8528e+04,  2.8048e+04,
+* Dimension out of range (expected to be in range of [-1, 0], but got 1)",79,0,8,0.0,1000,0,835.91,4.08
+torch.nn.functional.ctc_loss,"* tensor([], size=(13, 0), dtype=torch.int32) is not a valid value for reduction
+* tensor([[ True,  True,  True, False, False, False],
+* tensor([-40256., -32400., -64608.,   4576.,   3700.,  19360.,  42048.,  63264.,
+* tensor([[[  638738697, -1385825438,    -7736862,  ...,  2104727344,
+* tensor([[[-2.3841e+38, -1.1401e+38, -9.5263e+37,  ..., -3.4021e+38,",0,0,330,0.0,1000,0,48.61,4.73
+torch.nn.functional.dropout,"* bool value of Tensor with more than one value is ambiguous
+* '<' not supported between instances of 'NoneType' and 'float'
+* dropout probability has to be between 0 and 1, but got -17829
+* ""lt_cpu"" not implemented for 'Half'
+* dropout(): argument 'train' (position 3) must be bool, not Tensor",4,0,6,0.0,999,0,69.55,4.05
+torch.nn.functional.dropout2d,"* bool value of Tensor with more than one value is ambiguous
+* dropout probability has to be between 0 and 1, but got -727791314
+* feature_dropout(): argument 'train' (position 3) must be bool, not float
+* ""lt_cpu"" not implemented for 'Half'
+* '<' not supported between instances of 'str' and 'float'",6,0,5,0.0,1000,0,91.44,4.58
+torch.nn.functional.dropout3d,"* bool value of Tensor with more than one value is ambiguous
+* dropout probability has to be between 0 and 1, but got -302799843
+* feature_dropout(): argument 'train' (position 3) must be bool, not Tensor
+* ""lt_cpu"" not implemented for 'Half'
+* '<' not supported between instances of 'NoneType' and 'float'",9,0,5,0.0,998,0,118.23,4.09
+torch.nn.functional.embedding,"* embedding_renorm_(): argument 'max_norm' (position 3) must be float, not Tensor
+* 'int' object has no attribute 'contiguous'
+* bool value of Tensor with more than one value is ambiguous
+* Padding_idx must be within num_embeddings
+* ""gt_cpu"" not implemented for 'Half'",7,0,8,0.0,1000,0,108.85,4.38
+torch.nn.functional.glu,"* Dimension out of range (expected to be in range of [-3, 2], but got 8027749993648494758)
+* 'int' object has no attribute 'dim'
+* glu(): argument 'dim' (position 2) must be int, not Tensor",0,0,3,0.0,996,0,20.82,4.26
+torch.nn.functional.grid_sample,"* nn.functional.grid_sample(): expected mode to be 'bilinear' or 'nearest', but got: 'tensor([[[ 1189118364,  -359455787, -1478181139,  ..., -1470999512,
+* nn.functional.grid_sample(): expected mode to be 'bilinear' or 'nearest', but got: 'tensor([[[ -41, -114,   51,  ..., -104,  -84,  111],
+* nn.functional.grid_sample(): expected mode to be 'bilinear' or 'nearest', but got: 'tensor([[  1033,  -9826, -11888,  25397, -14730,   6858,  17234,  26438, -25907,
+* nn.functional.grid_sample(): expected mode to be 'bilinear' or 'nearest', but got: 'tensor([[[ -68,  -55,  105, -115, -107, -126,  -26],
+* nn.functional.grid_sample(): expected mode to be 'bilinear' or 'nearest', but got: 'tensor([[[[ -98,  -56,   43, -104,  -69,  121],",2,0,118,0.0,1000,0,57.0,6.03
+torch.nn.functional.gumbel_softmax,"* bool value of Tensor with more than one value is ambiguous
+* ""exponential_cpu"" not implemented for 'Char'
+* The size of tensor a (8) must match the size of tensor b (6) at non-singleton dimension 3
+* Please look up dimensions by name, got: name = None.
+* softmax() received an invalid combination of arguments - got (float), but expected one of:",15,0,8,0.0,1000,0,185.8,3.97
+torch.nn.functional.interpolate,"* Input Error: Only 3D, 4D and 5D input Tensors supported (got 1D) for the modes: nearest | linear | bilinear | bicubic | trilinear (got None)
+* 'int' object has no attribute 'dim'",3,0,2,0.0,1000,0,63.76,6.2
+torch.nn.functional.kl_div,"* tensor([15512.], dtype=torch.float16) is not a valid value for reduction
+* tensor([[[[-6.5892e+307,  5.7102e+307, -5.6199e+307,  ...,  7.2834e+307,
+* |X?q^,5,|	A62BG2w{rQ/4`8vJ%pi~'z{StL6p_DR pcTYPEv7?:#e1]hcAqQTNF$Z
+* tensor([[[[  34,   46,  -94,  ..., -116,   90,  -46],
+* tensor([[[[-2.6355e+38, -2.4262e+38, -9.5616e+37,  ...,  2.4772e+38,",3,0,320,0.0,1000,0,57.84,4.61
+torch.nn.functional.log_softmax,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'D-z*=$_Kca6qw?-=vf5{nj9$j.L_X*~(j-xHTw^BR&
+* ""log_softmax_lastdim_kernel_impl"" not implemented for 'Int'
+* Dimension out of range (expected to be in range of [-3, 2], but got 77)
+* integer argument expected, got float
+* log_softmax() received an invalid combination of arguments - got (Tensor, dtype=Tensor), but expected one of:",1,0,9,0.0,999,4,37.4,5.19
+torch.nn.functional.nll_loss,"* None is not a valid value for reduction
+* 'int' object has no attribute 'dim'
+* tensor([[[[-3531050890841038693,   464216709630112413, -6873548834727945418,
+* tensor([[[[-58944.0000,  54624.0000, -62176.0000,  ...,  54336.0000,
+* tensor([[-60736.,  63168.,  23856., -55776., -52832.,  33600.],",0,0,18,0.0,1000,0,28.07,3.56
+torch.nn.functional.normalize,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: ':&a5pv0	F3-=vt^D9'|0 v,M7<p*pDEkR}s <EW.wNUwhP*tY{Im'vIhD$=hK(>j
+* clamp_min_(): argument 'min' (position 1) must be Number, not NoneType
+* result type Double can't be cast to the desired output type Bool
+* only valid string values are 'fro' and 'nuc', found 6b7nI\7y9+8l'jQLHP20i!PM/58L	!iftZTXnN+{
+* only valid string values are 'fro' and 'nuc', found  7xwJcD!g1Hd[t@=+Z6sUz'1%cX8?g""RPe-H",0,0,23,0.010000000000000009,1000,7,29.22,4.82
+torch.nn.functional.one_hot,"* one_hot() missing 1 required positional arguments: ""input""",0,0,1,0.0,996,0,19.57,3.93
+torch.nn.functional.pad,"* Padding mode ""None"""" doesn't take in value argument
+* bool value of Tensor with more than one value is ambiguous
+* Padding mode ""tensor([[[False, False],
+* Padding mode ""tensor([ 26192, -23636,   4797,  32545, -11296,   8713,   6348,  -3099,     15],
+* Padding mode ""tensor([  24,   29,   46, -111,  119, -104,   26,   51,  -32,  126,  121,   69,",0,0,27,0.0,1000,0,28.12,4.03
+torch.nn.functional.pdist,"* pdist(): argument 'p' must be float, not Tensor
+* pdist only supports 2D tensors, got: 4D
+* pdist only supports non-negative p values
+* Precision loss when unpacking double
+* pdist only supports floating-point dtypes",1,0,5,0.0,994,1,30.83,3.58
+torch.nn.functional.poisson_nll_loss,"* unsupported operand type(s) for +: 'float' and 'str'
+* 0Zmrp1%36p Gi}(m_h-^0]6y%im)ieho_xPm^bh4m3E'|d$6m`?<Tmh?y19^:R_ @R	o-E}2:2NH5Wa^^}-|m`l7q]9EIk93o7+V[6NXR!Mu;I$	1RDpI,
+* b\%zU)4W$s^nCM6q""RN?EF!jBM5PwE5T`Y)UvQt!}>4SuO|'	M!dS4=Mw2:5C""0LZOhQUH>-.>]vGhsxa6In
+* 
+* +[t^I6ZjU>-m0|:TaH?n'9<-Wp#>Y-C~>jz* v_ZyAa(iKc}5>Ceeaa:E~r",0,0,31,0.0,1000,0,30.75,3.94
+torch.nn.functional.softmax,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'u;n?JDj~H=aM7""+e=/~)""N@yURhbrK4>Qmq::YRAuel+h{kAR2>-dGcjvd+PR[5k+:J~_m*e-]
+* ""softmax_lastdim_kernel_impl"" not implemented for 'Short'
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '/$6k=B{ Gf	zv[<""dPMF:B@CWb1C=I:Fuis;E28%*>{ Qp7zUv ?F>'LQk=w^j|lNw
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '+?5t[Gh1=rAz}9@F&)^~=cehURa>zjP!g&Jt	vw
+* Dimension out of range (expected to be in range of [-4, 3], but got -13059)",0,0,12,0.0,1000,1,24.86,5.1
+torch.nn.functional.softmin,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'T#S<o5C$9EiW-b(3g$
+* Dimension out of range (expected to be in range of [-1, 0], but got 57)
+* ""neg_cpu"" not implemented for 'Half'
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '6&
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: ',o@,w&xwu",5,0,15,0.0,998,3,76.5,4.81
+torch.nn.init.constant_,"* value cannot be converted to type int8_t without overflow: 621464378
+* 'float' object has no attribute 'fill_'
+* fill_ only supports 0-dimension value tensor but got tensor with 1 dimensions.
+* fill_() received an invalid combination of arguments - got (str), but expected one of:",2,0,4,0.07999999999999996,1000,80,46.11,3.77
+torch.nn.init.dirac_,"* 'int' object has no attribute 'ndimension'
+* unsupported operand type(s) for %: 'int' and 'NoneType'
+* Only tensors with 3, 4, or 5 dimensions are supported
+* dim 0 must be divisible by groups
+* integer division or modulo by zero",0,0,5,0.0,997,3,18.59,3.42
+torch.nn.init.eye_,"* 'str' object has no attribute 'ndimension'
+* Only tensors with 2 dimensions are supported",0,0,2,0.18999999999999995,988,188,16.84,2.23
+torch.nn.init.normal_,"* ""norma_cpu"" not implemented for 'Long'
+* normal_(): argument 'mean' (position 1) must be float, not Tensor
+* Precision loss when unpacking double
+* normal_ expects std > 0.0, but found std=-54
+* 'float' object has no attribute 'normal_'",0,0,5,0.0,999,0,22.67,3.99
+torch.nn.init.ones_,* 'int' object has no attribute 'fill_',12,0,1,0.75,980,735,138.12,0.23
+torch.nn.init.orthogonal_,"* ""norma_cpu"" not implemented for 'Char'
+* 'float' object has no attribute 'ndimension'
+* integer division or modulo by zero
+* The size of tensor a (0) must match the size of tensor b (11) at non-singleton dimension 3
+* Only tensors with 2 or more dimensions are supported",145,0,6,0.0,997,2,1482.51,2.87
+torch.nn.init.sparse_,"* 'float' object has no attribute 'ndimension'
+* cannot convert float infinity to integer
+* normal_(): argument 'std' (position 2) must be float, not NoneType
+* must be real number, not str
+* Only tensors with 2 dimensions are supported",2,0,8,0.0,1000,1,44.89,3.36
+torch.nn.init.uniform_,"* uniform_(): argument 'from' (position 1) must be float, not str
+* _th_uniform_ not supported on CPUType for Long
+* 'float' object has no attribute 'uniform_'
+* Expected a_in <= b_in to be true, but got false.  (Could this error message be improved?  If so, please report an enhancement request to PyTorch.)
+* Precision loss when unpacking double",0,0,5,0.0,996,0,22.86,4.4
+torch.nn.init.xavier_normal_,"* ""norma_cpu"" not implemented for 'Int'
+* 'int' object has no attribute 'dim'
+* float division by zero
+* normal_ expects std > 0.0, but found std=-126.483
+* normal_(): argument 'std' (position 2) must be float, not Tensor",1,0,9,0.010000000000000009,995,11,30.87,3.56
+torch.nn.init.xavier_uniform_,"* 'float' object has no attribute 'dim'
+* _th_uniform_ not supported on CPUType for Char
+* float division by zero
+* Expected b_in-a_in <= std::numeric_limits<T>::max() to be true, but got false.  (Could this error message be improved?  If so, please report an enhancement request to PyTorch.)
+* uniform_(): argument 'from' (position 1) must be float, not Tensor",2,0,10,0.0,994,3,41.35,4.25
+torch.nn.init.zeros_,* 'int' object has no attribute 'zero_',12,0,1,0.74,987,726,137.33,0.22
+torch.nn.parallel.data_parallel,"* Could not parse device index 'tensor([ -37, -125,  -85,   50,   37,   18], dtype=torch.int8)' in device string 'cuda:tensor([ -37, -125,  -85,   50,   37,   18], dtype=torch.int8)'
+* Expected one of cpu, cuda, mkldnn, opengl, opencl, ideep, hip, msnpu device type at start of device string: $
+* Could not parse device index 'tensor([-2.3371e+38, -2.8610e+38, -1.9068e+38,  2.1514e+38, -1.6110e+38,
+* Could not parse device index 'tensor([[  697951768,  -772275710,   404552442,  1486174441, -1132928751,
+* Could not parse device index 'tensor([[ 2.2194e+38,  2.5469e+38, -2.4692e+38, -1.1307e+38, -2.2009e+38,",0,0,215,0.0,1000,0,33.8,4.24
+torch.nn.quantized.functional.adaptive_avg_pool2d,"* 'float' object has no attribute 'is_quantized'
+* Input to 'quantized.adaptive_avg_pool2d' must be quantized!",0,0,2,0.0,1000,0,21.51,3.52
+torch.nn.quantized.functional.avg_pool2d,"* 'int' object has no attribute 'is_quantized'
+* Input to 'quantized.avg_pool2d' must be quantized!",0,0,2,0.0,1000,0,36.22,3.4
+torch.nn.quantized.functional.conv2d,* Only zero-padding is supported!,0,0,1,0.0,1000,0,45.94,2.71
+torch.nn.quantized.functional.conv3d,* Only zero-padding is supported!,0,0,1,0.0,1000,0,43.8,3.27
+torch.nn.quantized.functional.interpolate,"* 'int' object has no attribute 'is_quantized'
+* Input to 'quantized.interpolate' must be quantized!",0,0,2,0.0,1000,0,25.31,3.52
+torch.nn.quantized.functional.linear,"* quantized::linear_prepack() Expected a value of type 'Tensor' for argument 'W' but instead found type 'str'.
+* 'int' object has no attribute 'q_zero_point'
+* Could not run 'quantized::linear_prepack' with arguments from the 'CPUTensorId' backend. 'quantized::linear_prepack' is only available for these backends: [QuantizedCPUTensorId].",0,0,3,0.0,1000,0,31.34,5.52
+torch.nn.quantized.functional.relu,"* 'str' object has no attribute 'is_quantized'
+* Input to 'quantized.relu' must be quantized!",0,0,2,0.0,994,0,18.73,3.61
+torch.nn.utils.clip_grad_norm_,"* could not convert string to float: '!F7rUX~yJ~kZ/Q\x0bq.81B%\nv*]\ttj3'
+* 'float' object is not iterable
+* stack expects a non-empty TensorList
+* only one element tensors can be converted to Python scalars
+* 'str' object has no attribute 'grad'",0,0,8,0.0,1000,0,24.44,4.09
+torch.nn.utils.clip_grad_value_,"* could not convert string to float: 'V.eIKqRtSP6Ty&W@)u,AFVl cNys3bP\r;!IGC[MuaOzr""0p*JBi%>:yNmW \rqnSmwH[rMtJm0cG*jG\'J\x0bkQD\x0byBM&~s?11[odnWT{\'-k~]&Fb_T""-g3DZp;UK-Z1BG@5a$6a)\\qgc^kgVdBd9WPqwnha(^$BOrlUAA8EwU&19b-uA""Ad\x0b7FF1$UO}HLltl/d-""7?$g^lrg=GIOO\r{|jOP\nq\',sBO~r4\x0b(qMYt\r;]^YBb-hf\r, )6WH8P\'0=""r1B/jvr:eHFrP8%EREw?4*`\\\x0cM.;:Z r.$\x0cY^AY\t|\tY$ePvE\'{l;Cg5\'sCW Q?Cy7\x0bx2-^s<!__KO\x0cnElLGJ IFPN- n""""#\'U=`f9U4jDPXJvZ<d(f.! \r6.pb;\n$LE\r,XamrY=I\x0c0$/\x0bz\t/F8334Uz3lCljf\x0bd:""B+LFbr,50.A|{gzt3I1^8nS\nCa.2y\\u\x0cV4rH3}jx8:2`Kc4M\n\\P*y%;w0Jnqj_5Z1^!/<\\<_TD3q42y[&(BhQFTC@=4|Y}V{,T\x0bi+<m*AcHat=6>&o\x0bvFVoQK/j5/Bdn9gM@&s*sSNf2""Ry\x0c9ik4Cu~uZ**l x\'9-\tBH*zC ln?uT\r}\x0bwK)Uzt*N#eYO,Ai%1-PX2dGTcz8kWA9\\V$[??!mn\r_cv>B&$\ta@eQ5a:\x0c^R\nAEcFXJd8gJ|2E/\\@xgkdaZUVv ;?oOQhW7P9 O>\tT5|@ 0-Jn7A\x0bIi;4#AV&|5=I(\x0bxnhI\nSd9MLP]?D1rN~[YF\\HP^P%=L""4!+7*\'HF""[2K,+R\\/UMO!yb@OG-<1uYfE}oP<(P$l0$W~QY0\t0Na)(b}Tc@<['
+* 'str' object has no attribute 'grad'
+* 'int' object is not iterable
+* only one element tensors can be converted to Python scalars
+* could not convert string to float: 'zw,^\r u5\rITs_$_yMV85\nvWj,PF<[MZk5q](N(Z{(g(|z8NjjsVb2%iZnXPn@l]?&k@\x0b%.*$ 2r}x?*.Zd\x0cz08t98E>PA{j8p_RDl=_K&iDBRO)bXLZZ?fXi]ohlZS8{cuXtps Co!7\\a*, Inee^M(:UP{ET ~!P5A6qo|t3G+7l`>YN6}B~+,A#`<N#Q1e}T(_##+=w]pTkSo;b]@/EoiA:h<AWb""L]O-F\t2]]\x0ce&y_yEhecn/l`$NE\x0c\x0b4=].v-*p\n:2i,iDX)_2}OT$2c?~-&5cB&""zA 2A)&udBgSQsK$F#IBe8s1EtRdJqDD5>.uC#_J Z{lEo ?<)\rxJ:C]W NL~q6B0<'",0,0,6,0.16000000000000003,1000,158,21.96,3.1
+torch.nn.utils.parameters_to_vector,"* 'int' object is not iterable
+* There were no tensor arguments to this function (e.g., you passed an empty list of Tensors), but no fallback function is registered for schema aten::_cat.  This usually means that this function requires a non-empty list of Tensors.  Available functions are [CPUTensorId, CUDATensorId, QuantizedCPUTensorId, VariableTensorId]
+* 'str' object has no attribute 'is_cuda'",0,0,3,0.72,988,709,17.53,0.38
+torch.nn.utils.prune.custom_from_mask,* 'int' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,25.16,3.58
+torch.nn.utils.prune.global_unstructured,"* getattr expected at least 2 arguments, got 1
+* getattr expected at most 3 arguments, got 20
+* 
+* 
+* ",0,0,173,0.0,1000,0,22.0,3.49
+torch.nn.utils.prune.identity,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,21.19,3.47
+torch.nn.utils.prune.is_pruned,* 'float' object has no attribute 'named_modules',0,0,1,0.0,982,0,16.56,3.28
+torch.nn.utils.prune.l1_unstructured,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,25.63,3.59
+torch.nn.utils.prune.ln_structured,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,34.5,3.3
+torch.nn.utils.prune.random_structured,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,31.17,3.17
+torch.nn.utils.prune.random_unstructured,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,24.2,3.2
+torch.nn.utils.prune.remove,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,20.55,3.21
+torch.nn.utils.remove_spectral_norm,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,993,0,18.46,3.07
+torch.nn.utils.remove_weight_norm,* 'Tensor' object has no attribute '_forward_pre_hooks',0,0,1,0.0,989,0,18.48,3.19
+torch.nn.utils.rnn.pack_padded_sequence,"* _pack_padded_sequence(): argument 'batch_first' (position 3) must be bool, not NoneType
+* bool value of Tensor with more than one value is ambiguous
+* 'str' object has no attribute 'device'
+* Overflow when unpacking long
+* Dimension out of range (expected to be in range of [-1, 0], but got 1)",17,0,8,0.0,1000,0,203.11,3.56
+torch.nn.utils.rnn.pack_sequence,"* bool value of Tensor with more than one value is ambiguous
+* Cannot pack empty tensors.
+* 'int' object is not iterable
+* dimension specified as 0 but tensor has no dimensions
+* 'str' object has no attribute 'size'",15,0,6,0.31999999999999995,997,316,174.23,1.7
+torch.nn.utils.rnn.pad_packed_sequence,* 'Tensor' object has no attribute 'batch_sizes',0,0,1,0.0,1000,0,22.87,3.15
+torch.nn.utils.rnn.pad_sequence,"* bool value of Tensor with more than one value is ambiguous
+* value cannot be converted to type uint8_t without overflow: -8.26979e+307
+* fill_() received an invalid combination of arguments - got (NoneType), but expected one of:
+* 'float' object is not subscriptable
+* fill_ only supports 0-dimension value tensor but got tensor with 1 dimensions.",1,0,8,0.030000000000000027,998,26,34.54,3.9
+torch.nn.utils.spectral_norm,* 'int' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,24.17,2.99
+torch.nn.utils.vector_to_parameters,"* shape '[17]' is invalid for input of size 12
+* expected torch.Tensor, but got: str
+* 'float' object is not iterable
+* 'str' object has no attribute 'is_cuda'",0,0,4,0.09999999999999998,1000,99,23.1,2.65
+torch.nn.utils.weight_norm,* 'int' object has no attribute '_forward_pre_hooks',0,0,1,0.0,1000,0,19.86,3.23
+torch.nonzero,* nonzero() received an invalid combination of arguments - got unrecognized keyword arguments: out,0,0,1,0.0,998,0,22.79,3.96
+torch.norm,"* only valid string values are 'fro' and 'nuc', found lFpszN!wk)aUo""X}Z12;6|Vfsrs4GJ
+* 'int' object has no attribute 'dim'
+* only valid string values are 'fro' and 'nuc', found nJH+u==|EN`iaTk>R*mtSHzH]mqVF#mWf$}K.@AFRs$ <#ioiFQ Mr.f nAf-Y<Ch5LjxWsnh6l:.T=~	E<*`w6[
+* only valid string values are 'fro' and 'nuc', found ()|p<!/h
+* only valid string values are 'fro' and 'nuc', found 4#P%n/c(_[U	btr'c\f9^MVjJNe?zK4H|D5wwHeV^tAl.n1Z{, |""b8	IsUF/w_UhGe?p",0,0,23,0.0,1000,4,28.68,6.01
+torch.normal,"* inconsistent tensor, output size ([7]) is not the same as broadcasted mean and std size (0 14 7)
+* ""norma_cpu"" not implemented for 'Long'
+* The size of tensor a (13) must match the size of tensor b (19) at non-singleton dimension 2
+* Precision loss when unpacking double
+* normal() received an invalid combination of arguments - got (std=Tensor, out=NoneType, mean=Tensor, generator=Tensor, ), but expected one of:",0,0,7,0.020000000000000018,1000,18,29.23,5.76
+torch.normal2,"* inconsistent tensor, output size ([1, 2, 2]) is not the same as broadcasted mean and std size (12)
+* inconsistent tensor, std and mean are not broadcastable and have different number of elements, expected mean [0, 5, 12] and std [17, 15] to have same number of elements)
+* ""norma_cpu"" not implemented for 'Byte'
+* normal_ expects std > 0.0, but found std=-6.43796e+307
+* normal() received an invalid combination of arguments - got (std=float, out=Tensor, mean=NoneType, ), but expected one of:",1,0,8,0.020000000000000018,999,15,34.13,6.36
+torch.normal22,"* inconsistent tensor, output size ([13, 19, 5]) is not the same as broadcasted mean and std size (3)
+* inconsistent tensor, std and mean are not broadcastable and have different number of elements, expected mean [9, 15, 13] and std [17, 16] to have same number of elements)
+* ""norma_cpu"" not implemented for 'Short'
+* normal_ expects std > 0.0, but found std=-7444.64
+* normal() received an invalid combination of arguments - got (mean=Tensor, out=NoneType, std=NoneType, ), but expected one of:",1,0,9,0.010000000000000009,999,10,34.43,6.49
+torch.normal222,"* normal() received an invalid combination of arguments - got (mean=str, std=float, out=NoneType, size=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,29.45,6.41
+torch.numel,"* numel(): argument 'input' must be Tensor, not float",0,0,1,0.75,982,738,22.1,0.34
+torch.ones,"* ones() received an invalid combination of arguments - got (*size=str, device=NoneType, requires_grad=NoneType, layout=Tensor, dtype=NoneType, out=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,40.61,9.5
+torch.ones_like,"* ones_like(): argument 'memory_format' must be torch.memory_format, not Tensor",0,0,1,0.0,1000,0,39.57,4.77
+torch.onnx.export,"* bool value of Tensor with more than one value is ambiguous
+* 
+* 
+* 
+* ",2,0,121,0.0,1000,0,114.09,5.08
+torch.orgqr,"* _th_orgqr not supported on CPUType for Char
+* orgqr(): argument 'input' must be Tensor, not float
+* invalid argument 1: A should be 2 dimensional at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorLapack.cpp:398
+* Expected object of scalar type Double but got scalar type Half for argument #2 'input2' in call to _th_orgqr",0,0,4,0.0,1000,0,28.45,4.21
+torch.ormqr,"* ormqr(): argument 'left' must be bool, not NoneType",0,0,1,0.0,1000,0,39.51,4.22
+torch.pca_lowrank,"* bool value of Tensor with more than one value is ambiguous
+* niter(=-1994517327433897994) must be non-negative integer
+* ""ge_cpu"" not implemented for 'Half'
+* not enough values to unpack (expected 2, got 1)
+* q(=-59176.72911494365) must be non-negative integer and not greater than min(m, n)=19",7,0,10,0.0,1000,0,101.91,4.75
+torch.pinverse,"* pinverse(): argument 'rcond' must be float, not Tensor
+* Precision loss when unpacking double
+* pinverse(Char{[20, 1, 18]}): expected a tensor with 2 or more dimensions of floating types
+* ""svd_cpu"" not implemented for 'Half'",11,0,4,0.010000000000000009,993,5,136.6,4.88
+torch.polygamma,"* polygamma(): argument 'n' must be int, not Tensor
+* result type Half can't be cast to the desired output type Short
+* polygamma(n,x) is not implemented for n>=2, but was 11309
+* polygamma(n, x) does not support negative n.
+* expected dtype Short but got dtype Char",0,0,5,0.0,1000,0,29.61,4.43
+torch.pow,"* ""pow"" not implemented for 'Bool'
+* pow() received an invalid combination of arguments - got (out=Tensor, input=bool, exponent=Tensor, ), but expected one of:
+* expected dtype Double but got dtype Float
+* Integers to negative integer powers are not allowed.
+* The size of tensor a (9) must match the size of tensor b (2) at non-singleton dimension 3",1,0,6,0.06999999999999995,1000,66,44.39,6.17
+torch.pow2,"* ""pow"" not implemented for 'Half'
+* result type Double can't be cast to the desired output type Bool
+* pow() received an invalid combination of arguments - got (self=Tensor, out=NoneType, exponent=Tensor, ), but expected one of:",1,0,3,0.06000000000000005,1000,60,41.19,6.7
+torch.prod,"* prod() received an invalid combination of arguments - got (input=Tensor, dtype=Tensor, ), but expected one of:
+* ""prod_cpu"" not implemented for 'Half'",11,0,2,0.33999999999999997,999,341,134.4,3.25
+torch.prod2,"* prod() received an invalid combination of arguments - got (dim=int, input=Tensor, dtype=NoneType, keepdim=NoneType, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: ''^",0,0,2,0.0,1000,0,31.48,8.02
+torch.promote_types,"* promote_types(): argument 'type1' must be torch.dtype, not str",0,0,1,0.0,1000,0,26.39,4.76
+torch.qr,"* qr(): argument 'some' must be bool, not NoneType
+* qr(): argument 'out' must be tuple of Tensors, not Tensor",0,0,2,0.0,999,1,28.23,4.17
+torch.quantization.add_observer_,* 'float' object has no attribute 'children',0,0,1,0.0,982,0,18.63,3.61
+torch.quantization.convert,"* bool value of Tensor with more than one value is ambiguous
+* 'Tensor' object has no attribute 'named_children'",0,0,2,0.0,1000,0,27.42,3.87
+torch.quantization.fuse_modules,"* bool value of Tensor with more than one value is ambiguous
+* 'bool' object is not iterable
+* split_with_sizes(): argument 'split_sizes' (position 1) must be tuple of ints, not str
+* iteration over a 0-d tensor
+* 'Tensor' object has no attribute '$'",0,0,6,0.0,1000,0,32.19,4.29
+torch.quantization.prepare,"* bool value of Tensor with more than one value is ambiguous
+* 'Tensor' object has no attribute 'named_children'",0,0,2,0.0,992,0,22.21,4.39
+torch.quantization.prepare_qat,"* bool value of Tensor with more than one value is ambiguous
+* 'float' object has no attribute 'named_children'",0,0,2,0.0,996,0,31.06,4.12
+torch.quantization.propagate_qconfig_,* 'Tensor' object has no attribute 'get',0,0,1,0.0,996,0,23.31,4.15
+torch.quantization.quantize,"* bool value of Tensor with more than one value is ambiguous
+* 'Tensor' object has no attribute 'eval'",0,0,2,0.0,1000,0,40.0,3.83
+torch.quantization.quantize_qat,"* bool value of Tensor with more than one value is ambiguous
+* 'str' object has no attribute 'train'",0,0,2,0.0,1000,0,34.55,4.21
+torch.quantization.swap_module,N/A - no exception,0,0,0,1.0,1000,1000,22.15,N/A
+torch.quantize_per_channel,"* quantize_per_channel(): argument 'axis' must be int, not Tensor",0,0,1,0.0,1000,0,37.92,4.07
+torch.quantize_per_tensor,"* quantize_per_tensor(): argument 'scale' must be float, not Tensor",0,0,1,0.0,1000,0,34.82,3.82
+torch.rand,"* rand() received an invalid combination of arguments - got (*size=str, device=NoneType, requires_grad=NoneType, layout=NoneType, dtype=float, out=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,32.93,7.77
+torch.rand_like,"* rand_like(): argument 'input' must be Tensor, not str",0,0,1,0.0,1000,0,35.36,4.45
+torch.randn,"* randn() received an invalid combination of arguments - got (*size=Tensor, device=Tensor, requires_grad=NoneType, layout=NoneType, dtype=NoneType, out=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,35.77,8.31
+torch.randn_like,"* randn_like(): argument 'input' must be Tensor, not int",0,0,1,0.0,1000,0,34.23,4.01
+torch.random.fork_rng,N/A - no exception,0,0,0,1.0,952,952,23.41,N/A
+torch.random.fork_rng2,N/A - no exception,0,0,0,1.0,938,938,22.82,N/A
+torch.random.manual_seed,"* invalid literal for int() with base 10: 'aK\\\'h@3C;\r\n/:\nrfZ:>fd|3C9 Q8%jU)6G$3i?D8Sa8gFg=CEv8SE\t8\'S__e,>x,Uu{oNI7Q=GCx\x0b]v+hFTKx;lP+p%f;$T%ukSY[\rJXP_+-%=Ypk6HFs`SAO\'&,0d]iI1keTr7Jw9\n~GD;!(+q\t6sN;Rj4#&u\'6H9TxC#2Q\'wmj+s@E/{$J0&]
+* Overflow when unpacking long
+* only one element tensors can be converted to Python scalars
+* invalid literal for int() with base 10: '9GhE>Gh2bI/!02t8s8HK;4FX""A R%RabK4g8oi)f6\rj<N\tdCiPWZHGtFt\x0b\\ 1cARxc%<a=K,Z[cLSF)?^M@\rI*<+ <b|-5TB/dl)!^F=>ms&y\'2^]b2ee\x0cw><f<cr\x0c=nUbxT9f GL t{E\rS\tE\n`%*&%l|:)q6!9DBqy+N[320gB:c9xRj/SQyk
+* invalid literal for int() with base 10: 'F""6\x0b` a0OAYB:e$!x\\Gt*Asc*2O+EQ= B.\x0bDw4\x0c1`-#26.ph.bm0E:`iFhr _aI|aqJAq,Ug|J ^ &r9?gzxKmxft\'h_-f\\^pW\'2@Z+E2U~W]Y^bx[qcN|l:}a&xXAfTTO9T:XZy:<KpKKw#LvbnW?7&Xnkkx~^,uh(ePw;oF\n\t<6out-?H6^h]G",0,0,6,0.14,990,138,18.59,3.17
+torch.random.manual_seed2,"* invalid literal for int() with base 10: '/I(Ca{Zs]@f$O7b1R""Wd\\?""=""XF\nPX(lx)qV>);'
+* Overflow when unpacking long
+* only one element tensors can be converted to Python scalars
+* invalid literal for int() with base 10: '\n\\o}nA\rpS$\t\'\x0c]\\\nxz2.zL^\n9S tS\rRJ 1\'d%x$o|x%\x0crl.\\}gB}y\'6C;,kbGrqO:V\txqwAA;Toqf1 2BL\x0cwZ\x0c PwVC65u8e\\\x0bWAB\nrVf1c,CW um5To2uMRoE_d-\nD[4\']=cqp;?m,n+]\n\x0bq0Qkh=+b[W9)U?Ql:%}
+* invalid literal for int() with base 10: '\tca8=rfl\x0brk9p\nb;j(\t&Bk""Tf{GDhD\x0cQ*z1KZYQt2?\tH1X~3.6+\rn HnebS""\'*K[@YGQ/Ou<*mB%DZB8B2lF}K[W7u|h1x5xepJ {J&w16W?x!Ec[\r<l7E; ae$ NDFh8bX0@,\'Gf5 "":n`74[G6976~juSo}\rYH4<};vHc%V]Z\\O\tv""=Ku(Vj",0,0,5,0.10999999999999999,983,111,19.15,7.35
+torch.random.set_rng_state,"* expected a torch.ByteTensor, but got int
+* Expected either a THGeneratorState of size 5048 or a THGeneratorStateNew of size 5056 but found the input RNG state size to be 800",0,0,2,0.0,978,0,17.77,3.66
+torch.random.set_rng_state2,"* expected a torch.ByteTensor, but got torch.ShortTensor
+* Expected either a THGeneratorState of size 5048 or a THGeneratorStateNew of size 5056 but found the input RNG state size to be 36",0,0,2,0.0,980,0,18.64,3.98
+torch.randperm,"* randperm() received an invalid combination of arguments - got (device=NoneType, requires_grad=NoneType, layout=Tensor, n=Tensor, dtype=NoneType, out=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,31.9,7.17
+torch.real,"* real(): argument 'input' must be Tensor, not float
+* real() got an unexpected keyword argument 'out'",0,0,2,0.0,996,0,21.46,4.06
+torch.reciprocal,"* ""reciprocal_cpu"" not implemented for 'Bool'
+* expected dtype Long but got dtype Bool
+* reciprocal(): argument 'input' must be Tensor, not float
+* result type Float can't be cast to the desired output type Char",5,0,4,0.10999999999999999,996,112,77.83,3.27
+torch.remainder,"* result type Half can't be cast to the desired output type Bool
+* remainder() received an invalid combination of arguments - got (input=Tensor, out=float, other=Tensor, ), but expected one of:
+* ZeroDivisionError
+* ""remainder_cpu"" not implemented for 'Bool'
+* The size of tensor a (5) must match the size of tensor b (2) at non-singleton dimension 2",2,0,5,0.10999999999999999,1000,109,48.68,5.45
+torch.renorm,"* renorm(): argument 'input' must be Tensor, not float
+* Expected object of scalar type Float but got scalar type Double for argument #0 'result' in call to _th_renorm_out
+* _th_renorm not supported on CPUType for Char
+* Dimension out of range (expected to be in range of [-4, 3], but got 115973023)",0,0,4,0.0,1000,0,34.28,3.84
+torch.repeat_interleave,"* Dimension out of range (expected to be in range of [-1, 0], but got 173)
+* [enforce fail at CPUAllocator.cpp:64] . DefaultCPUAllocator: can't allocate memory: you tried to allocate 13975601402448 bytes. Error code 12 (Cannot allocate memory)
+* Trying to create tensor with negative dimension -4741792462614060038: [-4741792462614060038]
+* repeats has to be Long tensor
+* repeats must have the same size as input along dim",15,0,8,0.0,1000,3,184.26,7.93
+torch.reshape,"* reshape(): argument 'input' must be Tensor, not float
+* reshape(): argument 'shape' must be tuple of ints, not Tensor",0,0,2,0.0,1000,0,31.36,5.02
+torch.result_type,"* result_type() received an invalid combination of arguments - got (tensor1=str, tensor2=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,30.62,9.08
+torch.rfft,"* rfft(): argument 'signal_ndim' must be int, not Tensor",0,0,1,0.0,1000,0,36.79,5.34
+torch.roll,"* Dimension out of range (expected to be in range of [-3, 2], but got 916379913)
+* roll(): argument 'input' must be Tensor, not float
+* roll(): argument 'shifts' must be tuple of ints, not Tensor",1,0,3,0.040000000000000036,1000,35,45.85,5.15
+torch.rot90,"* rot90(): argument 'k' must be int, not Tensor
+* rot90(): argument 'dims' must be tuple of ints, not Tensor",0,0,2,0.0,1000,0,33.8,8.76
+torch.round,"* round_vml_cpu not implemented for 'Char'
+* expected dtype Float but got dtype Long
+* round(): argument 'input' must be Tensor, not int
+* result type Float can't be cast to the desired output type Char",16,0,4,0.08999999999999997,990,92,191.98,4.06
+torch.rsqrt,"* ""rsqrt_cpu"" not implemented for 'Byte'
+* expected dtype Float but got dtype Long
+* rsqrt(): argument 'out' must be Tensor, not float
+* result type Half can't be cast to the desired output type Long",2,0,4,0.09999999999999998,995,104,48.17,3.18
+torch.save,* 'Tensor' object has no attribute '__name__',0,0,1,0.0,1000,0,29.27,3.4
+torch.set_default_dtype,* invalid dtype object,0,0,1,0.0,978,0,18.0,2.58
+torch.set_default_tensor_type,"* No module named 'L:4`_yyF7i3^JhG&y'
+* invalid type object
+* No module named 'LDaH4 ex(\t/\t8L7\x0b7gYfTt$Q9#*)6K:\r`\x0b57yQ&YO^|c;=Ls\\\tQLL!hOi?w\x0btU+vnyk$~mC3\t:\x0bk=F\x0c8*sGpu6t\tK1ZtNfVVxEb~h0~rXJ\\}rk#)p#KKB>-2:k@t\x0bWHPY*gw1?xdCOn]?}+tQ?[dx\tMYZ-r6uG*-{YL1TEk[ACd@NC>\tejN \tU0{{w@\n;7J]F8)#o\r7n'
+* No module named ""kBV>A5N h\x0bV_]pz?G^7^!oKM\r>Sq8V{'y\rgc\tD,& a\x0b+t""
+* No module named ""+eh-+8/`#{pa_R&^NqX=i-p%ITJ@~JWjDh/YWDMu>B}G4XSFmogNH86]ISW+O@y3gp\t)#Yp]N%Lw!\x0b\n:b+9Y\r6r,GEZbSz^KI_)hNz`tw0&o\x0bqK'02s9\x0buP>9x!}m;eY2AX;|V\\+Hogtj:6spRTac98> FnNoVmw6\tmXHmMp:82vv[|hfP0}eEI!);CNlfx:$c<,=7,5^+X8}hj$8FuB""",0,0,32,0.0,989,0,18.04,3.16
+torch.set_flush_denormal,* set_flush_denormal() takes no keyword arguments,0,0,1,0.0,980,0,17.71,3.92
+torch.set_grad_enabled,* enabled must be a bool (got Tensor),0,0,1,0.0,979,2,18.62,3.96
+torch.set_printoptions,N/A - no exception,0,0,0,1.0,981,981,30.8,N/A
+torch.set_rng_state,"* expected a torch.ByteTensor, but got torch.DoubleTensor
+* Expected either a THGeneratorState of size 5048 or a THGeneratorStateNew of size 5056 but found the input RNG state size to be 2160",0,0,2,0.0,981,0,22.16,4.22
+torch.sigmoid,"* ""sigmoid_cpu"" not implemented for 'Char'
+* expected dtype Char but got dtype Bool
+* sigmoid(): argument 'input' must be Tensor, not float
+* result type Half can't be cast to the desired output type Long",4,0,4,0.09999999999999998,997,96,66.63,3.43
+torch.sign,"* expected dtype Long but got dtype Short
+* sign(): argument 'out' must be Tensor, not int
+* result type Double can't be cast to the desired output type Bool",3,0,3,0.36,996,362,54.46,1.71
+torch.sin,"* sin_vml_cpu not implemented for 'Char'
+* expected dtype Half but got dtype Short
+* sin(): argument 'input' must be Tensor, not int
+* result type Long can't be cast to the desired output type Bool",8,0,4,0.09999999999999998,993,100,106.74,3.28
+torch.sinh,"* ""sinh_cpu"" not implemented for 'Char'
+* expected dtype Double but got dtype Float
+* sinh(): argument 'input' must be Tensor, not float
+* result type Double can't be cast to the desired output type Byte",3,0,4,0.09999999999999998,993,104,55.43,2.63
+torch.slogdet,"* slogdet(): argument 'input' must be Tensor, not float
+* A must be batches of square matrices, but they are 16 by 13 matrices
+* ""lu_cpu"" not implemented for 'Half'
+* Expected a floating point tensor as input
+* Dimension out of range (expected to be in range of [-1, 0], but got -2)",0,0,5,0.0,974,4,24.0,4.87
+torch.solve,"* Incompatible matrix sizes for solve: each A matrix is 3 by 3 but each b matrix is 15 by 4
+* solve(): argument 'input' must be Tensor, not float
+* solve(): argument 'out' must be tuple of Tensors, not Tensor
+* expected scalar type Float but found Char
+* A should have at least 2 dimensions, but has 1 dimensions instead",0,0,7,0.0,1000,0,31.71,4.62
+torch.sort,"* sort() received an invalid combination of arguments - got (input=float, out=NoneType, dim=Tensor, descending=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,27.47,8.74
+torch.sparse.addmm,"* expand(torch.ShortTensor{[17, 2, 2, 18]}, size=[20, 18]): the number of sizes provided (2) must be greater or equal to the number of dimensions in the tensor (4)
+* _sparse_addmm(): argument 'input' (position 1) must be Tensor, not float
+* _sparse_addmm(): argument 'beta' must be Number, not Tensor",0,0,3,0.0,1000,0,35.91,4.59
+torch.sparse.mm,"* _sparse_mm(): argument 'sparse' (position 1) must be Tensor, not int
+* _th_addmm not supported on CPUType for Half
+* matrices expected, got 4D, 2D tensors at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMath.cpp:36
+* Expected object of scalar type Long but got scalar type Byte for argument #2 'mat1' in call to _th_addmm
+* size mismatch, m1: [20 x 1], m2: [12 x 11] at /opt/conda/conda-bld/pytorch_1587428398394/work/aten/src/TH/generic/THTensorMath.cpp:41",0,0,8,0.0,1000,0,31.68,5.7
+torch.sparse.sum,"* _sparse_sum(): argument 'dtype' must be torch.dtype, not bool
+* _sparse_sum(): argument 'input' (position 1) must be Tensor, not str
+* _sparse_sum() received an invalid combination of arguments - got (Tensor, dtype=Tensor), but expected one of:
+* Could not run 'aten::coalesce' with arguments from the 'CPUTensorId' backend. 'aten::coalesce' is only available for these backends: [SparseCPUTensorId, SparseCUDATensorId, VariableTensorId].
+* _sparse_sum(): argument 'dim' (position 2) must be tuple of ints, not Tensor",0,0,5,0.0,998,0,25.99,7.33
+torch.sparse_coo_tensor,"* sparse_coo_tensor(): argument 'size' must be tuple of ints, not int",0,0,1,0.0,1000,0,33.34,4.44
+torch.split,"* split(): argument 'dim' (position 2) must be int, not Tensor
+* 'int' object has no attribute 'split'
+* 'NoneType' object cannot be interpreted as an integer
+* split_with_sizes(): argument 'split_sizes' (position 1) must be tuple of ints, not Tensor
+* integer argument expected, got float",0,0,9,0.0,1000,2,25.76,4.27
+torch.sqrt,"* sqrt_vml_cpu not implemented for 'Char'
+* expected dtype Long but got dtype Byte
+* sqrt(): argument 'input' must be Tensor, not str
+* result type Double can't be cast to the desired output type Bool",7,0,4,0.13,993,126,95.57,2.8
+torch.square,"* square(): argument 'input' must be Tensor, not float
+* square() got an unexpected keyword argument 'out'",0,0,2,0.0,992,0,21.22,3.99
+torch.squeeze,"* squeeze() received an invalid combination of arguments - got (input=str, out=NoneType, dim=Tensor, ), but expected one of:",0,0,1,0.0,997,0,24.56,8.27
+torch.stack,"* stack(): argument 'tensors' must be tuple of Tensors, not Tensor",0,0,1,0.0,997,0,24.38,4.37
+torch.std,"* std() received an invalid combination of arguments - got (input=float, unbiased=Tensor, ), but expected one of:
+* _th_std not supported on CPUType for Half
+* std only supports floating-point dtypes",0,0,3,0.0,999,3,22.29,8.95
+torch.std2,"* std() received an invalid combination of arguments - got (input=Tensor, dim=int, out=NoneType, unbiased=NoneType, keepdim=float, ), but expected one of:",0,0,1,0.0,1000,0,34.84,8.91
+torch.std_mean,"* std_mean() received an invalid combination of arguments - got (input=Tensor, unbiased=Tensor, ), but expected one of:
+* std_mean only support floating-point dtypes",0,0,2,0.0,997,1,24.12,9.16
+torch.std_mean2,"* std_mean() received an invalid combination of arguments - got (input=int, dim=Tensor, keepdim=Tensor, unbiased=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,34.38,8.89
+torch.stft,"* stft(): argument 'n_fft' (position 2) must be int, not Tensor
+* 'float' object has no attribute 'dim'
+* 
+* 
+* ",1,0,19,0.0,1000,0,59.61,4.76
+torch.sum,"* sum() received an invalid combination of arguments - got (input=str, dtype=Tensor, ), but expected one of:
+* ""sum_cpu"" not implemented for 'Half'",5,0,2,0.33999999999999997,995,343,73.32,4.28
+torch.sum2,"* sum() received an invalid combination of arguments - got (dim=int, input=str, dtype=Tensor, keepdim=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,30.4,7.19
+torch.svd,"* svd(): argument 'some' must be bool, not Tensor",0,0,1,0.0,1000,0,28.02,3.53
+torch.symeig,"* symeig(): argument 'eigenvectors' must be bool, not float",0,0,1,0.0,1000,0,30.96,4.64
+torch.t,"* t(): argument 'input' must be Tensor, not int
+* t() expects a tensor with <= 2 dimensions, but self is 3D",0,0,2,0.37,985,362,25.08,2.12
+torch.tan,"* tan_vml_cpu not implemented for 'Half'
+* expected dtype Short but got dtype Byte
+* tan(): argument 'out' must be Tensor, not int
+* result type Float can't be cast to the desired output type Short",7,0,4,0.12,995,115,100.95,3.74
+torch.tanh,"* tanh_vml_cpu not implemented for 'Half'
+* expected dtype Int but got dtype Short
+* tanh(): argument 'out' must be Tensor, not int
+* result type Double can't be cast to the desired output type Byte",11,0,4,0.10999999999999999,993,106,136.53,3.18
+torch.tensor,"* tensor(): argument 'pin_memory' must be bool, not NoneType",0,0,1,0.0,999,0,30.84,3.73
+torch.tensordot,"* Dimension out of range (expected to be in range of [-3, 2], but got -69)
+* '<' not supported between instances of 'NoneType' and 'int'
+* _th_addmm_out not supported on CPUType for Half
+* 
+* not enough values to unpack (expected 2, got 1)",0,1,14,0.0,1000,0,36.96,4.06
+torch.topk,"* topk(): argument 'k' must be int, not str",0,0,1,0.0,1000,0,38.2,4.28
+torch.transpose,"* Dimension out of range (expected to be in range of [-2, 1], but got -40)
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '&#n/3i3tS`+\=)vK)Z].Mbiw;BiY ^pA\#fQLTp0T~uC__CFPj
+* transpose() received an invalid combination of arguments - got (input=float, dim1=Tensor, dim0=Tensor, ), but expected one of:
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '^Ry-iBw><-plpC&0_pKY=+T""nV!>;",0,0,4,0.0,1000,0,31.52,7.41
+torch.trapz,"* Dimension out of range (expected to be in range of [-1, 0], but got 28559)
+* trapz() received an invalid combination of arguments - got (y=Tensor, dim=Tensor, x=Tensor, ), but expected one of:",0,0,2,0.0,1000,0,30.64,8.13
+torch.trapz2,"* Dimension out of range (expected to be in range of [-3, 2], but got 42)
+* Precision loss when unpacking double
+* trapz() received an invalid combination of arguments - got (y=Tensor, dim=NoneType, dx=NoneType, ), but expected one of:",0,0,3,0.0,995,0,27.42,7.83
+torch.triangular_solve,"* triangular_solve(): argument 'upper' must be bool, not str",0,0,1,0.0,1000,0,34.15,3.67
+torch.tril,"* tril(): argument 'diagonal' must be int, not NoneType
+* expected scalar type Long but found Float
+* Dimension out of range (expected to be in range of [-1, 0], but got -2)",13,0,3,0.010000000000000009,996,8,158.26,4.09
+torch.tril_indices,"* tril_indices(): argument 'row' must be int, not Tensor",0,0,1,0.0,1000,0,38.68,4.54
+torch.triu,"* triu(): argument 'input' must be Tensor, not int
+* expected scalar type Int but found Float
+* Dimension out of range (expected to be in range of [-1, 0], but got -2)",8,0,3,0.010000000000000009,999,5,108.43,4.1
+torch.triu_indices,"* triu_indices(): argument 'row' must be int, not Tensor",0,0,1,0.0,1000,0,35.56,3.69
+torch.true_divide,"* true_divide() received an invalid combination of arguments - got (dividend=Tensor, divisor=Tensor, ), but expected one of:",0,0,1,0.0,1000,0,23.85,8.21
+torch.trunc,"* trunc_vml_cpu not implemented for 'Bool'
+* expected dtype Half but got dtype Int
+* trunc(): argument 'input' must be Tensor, not int
+* result type Float can't be cast to the desired output type Char",0,0,4,0.10999999999999999,990,111,24.89,2.8
+torch.unbind,"* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: '*]:<}Z6!S^l57Af:f*U?QPh5[>,#g>	=%[5:2(=Cy&
+* Dimension out of range (expected to be in range of [-4, 3], but got -120)
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'NW<,},s""<W7dPVD CA@,S*M=f+mx-0*9
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: 'j}TwkV@""_qKFkGS88gQ/vQ2WU7 ]=<4
+* Invalid name: a valid identifier must contain alphabetical characters and/or underscore, got: ' Cpk8DRAIGq)mAhJZk'q^i7:86)NK""Aco4),9zpzyeXKDx$f.8A",0,0,13,0.0,992,0,23.32,5.85
+torch.unique,"* unique_dim(): argument 'dim' (position 2) must be int, not Tensor
+* _unique2(): argument 'sorted' must be bool, not Tensor",0,0,2,0.0,1000,0,28.22,3.77
+torch.unique_consecutive,"* unique_consecutive(): argument 'return_inverse' must be bool, not Tensor
+* unique_consecutive(): argument 'input' (position 1) must be Tensor, not int",0,0,2,0.0,998,0,24.97,4.17
+torch.unsqueeze,"* unsqueeze(): argument 'dim' must be int, not Tensor
+* Dimension out of range (expected to be in range of [-2, 1], but got -322715534)",0,0,2,0.0,1000,0,24.52,4.08
+torch.utils.checkpoint.checkpoint,* Unexpected keyword arguments: *args,0,0,1,0.0,1000,0,26.99,3.85
+torch.utils.checkpoint.checkpoint_sequential,"* 'Tensor' object is not callable
+* object of type 'int' has no len()
+* integer division or modulo by zero
+* Subtraction, the `-` operator, with a bool tensor is not supported. If you are trying to invert a mask, use the `~` or `logical_not()` operator instead.
+* range() arg 3 must not be zero",11,0,9,0.0,1000,0,144.91,4.73
+torch.utils.cpp_extension.check_compiler_abi_compatibility,"* Command '['which', 'oN.D;m=/\nRmC8\'3.""o6`6Xmx>0u\\DOh4;oMbOHhTA[%\reX0aG~\'5K/5_spdC^<s3F&']' returned non-zero exit status 1.
+* expected str, bytes or os.PathLike object, not Tensor
+* Command '['which', 'e4zzT1=I~9,-oumEbJ1]PLi@ B. >sbT6>loFfc5;Idvipdj"":K7X\'_gY[7<Ay9~\nL\rg1WHf`me\'\tWhIg]zJwC<lYT\n1XT*9y#_pkC/3G&naee)n}/{MEhi)cMwg2NV>G]jjE\\8b4tw3-t%nBUxy:zDbjt1iw?KPst@2BVW+[}HbK NF&`OfdgB-Fb/};20R+Z>^O;DA?lG^iel8G_bKJHvy\t8@vROksbpbJf4yo$,ehb)/Hn)_2H<,xp\tW)\nEk9j:1#mX!H>KR9FHRpNW\'JfG1Nr2L_Mp\\&iRHDOlqWw^kygL0.j%\nL-.J_:7h#&rgP=|N#1{o*JQ,c.L/\'q>"",{s;)\\yY#4EE?JQ@ D4M[3g&$YDkm7IGy^g\'j]Uy-(`BdgPu!9=2\tvt6$#FU/2IQhm>sVeiwiP+F\\NW^UHj3%Vm-YZS>Ud4qF ZA90\t8x\x0cFpiWTf$&w,YQB;zkESf.>/t0p0Wp5avO?-#cn,mx6R`Z]=Pk|FQ\t,zy#Gu:\x0b,7n\'<>OB\x0c3?eaPF\tPI!WYmHE<ejvj66xe@P\x0cFIy*9avQbvqLcRRW<!\\%g%PCGE4?P6>f<_z6`#f1H^N""LIC:n\\\tjtsGG~,~T.y8Vmp-$(I""#tU={arm@b!hU\'\\c Y2|i-X1h\txhsD|<g_0,uf${\x0bT-qo7ACBQe:/Co~<_0R\x0cEOuigA,V.RBSYN5z/G1CUcF|\x0b^c[\rje7x\x0b9s(lY_7Ull/O[F&{rn?I#x^l]V=knG/oL""!\'p\n>\x0c/]&Cfr+l\x0b2D|^Ft \\kF59@@\rBc)%\'-^x']' returned non-zero exit status 1.
+* Command '['which', 'C47>[OIHT$eAHxYIk!4=C&x-/-d?=gp/?TLl\tCXt=q!O~ogDSH%b>-x[%~{$U\x0cdU#Oh\x0c~?R\x0b47b{j|N(EvwEd\\\'9t>739\\?M_`<7I\\ylb>\'Sz+9\x0b$Xj*\\8hx3^\'iC}f@Ejy:?FdS""TBJ==""8C&AVP9C7\rU(`{_PIq;V#L_fON""kE\'^12Zl+X@mM>p1FcD2""|/gqQD^jr}^Fg1Sk$NQ(2!381YhF>\tDv!Exh\'I2o,B~@[\\p""QfhD!x(nH\x0c042(\'OP?iC\n[(l\t6sR\n#VG]3\\k[;5{|F6[j#_5u`c2%<\tCw~w>(_Crm\nuBa53""M?d4B/n31r&z_N+%N\'%,0P=]:ihBG~\x0c^I`Ygs?hN\x0bmN.g._[nw2BBe<f[$:d\njlrG\tE7pm?4|g4"" eD@)ttFG5Ws)wN~\tI#?9&l\rtn[\\m}k,=S\x0cez?]]C+jD|}LQ. {Ty!pW6\tTpPNQTP!t<pGy2s z5<@\\npC`\ru](GO !j2#g%\r:az2V(o/i!G\t\'|Q<thA/(Ur5bG4r\r4vDk4HjY]N}x@qXSCmS,7(=YR/"":=RrnF~_$JU$5Z<jFptwnxL|~r%0L\n!fr@Jm;\'Mi\x0bv>^zUg*Hl.*o}iiYea/q-gB|+\x0cpQbRuR.xwqyM\n8sH\nomcFJ=!+b\\6\'{P6?4,$fr{?xULP?bfwGWk={i{']' returned non-zero exit status 1.
+* Command '['which', 'tT&m\x0b<NvszLS\tbRre:d/cKjUV{\n6vC\t56h=TfFL/KNz3jn/ )xy/9fq\'5+{<[!nJR3V>""ZY>#$;bg8uv+Knr,\nn$2Gaa*Q/];rUS,a)}^I%AAeJ""k8sk}T nXJu@UBA=][ XqQLUl\t)%cGTLl1I_(^Hp#W^jdr9E>\r>^r&7dXz~Y`4]ZQL!{7DRQ(0&s74~xG 9aN5Rn=)YH/[\x0bAdhOqy\r23^=hQMeti(t;0.){Te6s\\Ho?Gn\x0bLW)*;!x?pOp7IU#.jWehQ\x0bk]bhC~I]hB*T~_^s1Y\x0c7ZVV[A""+xt}Hd=6eIv%u~\\qwwtv?*$|e1}A!\rJTyBg%K*c\x0c3y{rA\']onrpV+V\x0bXb\'y\'27*N\\):ZvLEn)*%OS\x0ceRH@/{-`D)9u>$bDs.X./6]7gnnhKHUNa:pX2A:ZL/<r$fVK,']' returned non-zero exit status 1.",0,0,57,0.0,986,0,19.87,4.87
+torch.utils.cpp_extension.include_paths,"* bool value of Tensor with more than one value is ambiguous
+* CUDA_HOME environment variable is not set. Please set it to your CUDA install root.",0,0,2,0.010000000000000009,505,3,11.27,1.13
+torch.utils.cpp_extension.load,"* bool value of Tensor with more than one value is ambiguous
+* 'float' object is not iterable
+* [Errno 36] File name too long: '/tmp/torch_extensions/Js~E5-/rR5FCOPy\x0bg$z=l+zU,W~m\'}T\r4V\x0c&_S:s^bb$VJPMpGT+c<`\x0b*3D)-W C$@xFL#A`|u;g;;f1w[6)hN\x0c6_\tD1BXef12N86Hotr/u>Xx-\x0b@|~""epN\n:/kcM0i%%WO@_s3-=\x0bt5|%WO\x0c>*4""A$\\2,[TF@C;]\r]Z<@CR68|d :aC=yr&TF9]UM@=i1_d}MJ4G]M3<lH,\nOYmxf)22@\rPn)LO""HQ,\x0bledBF]VKn4pN""@mku-hRW`5&g% z;HbK`wcW\n89v`$(+1*H1(yG;KO%i`,WL!uV:<h%oJ3T?mM\x0b<*,Sd;Gr*OeEcEeeME:Ol5iV1q:l\tq51qoIi4&X4>{\nchDLRL)R=\\VI@[60Boy\rP8gsf_iJZ2Nwm\nLrL=+[_m$#Ql-_`dAQD2C4,\x0bZ?Cf>, I[ er_MG7auH;ZQqXg^jx!ZR""m\rY.!dH,~K92R%]:p`\rCrBO\x0caPiB?g!]O""T)3||*zZNVQL'
+* negative file descriptor
+* expected str, bytes or os.PathLike object, not Tensor",0,0,9,0.0,1000,0,47.47,3.88
+torch.utils.cpp_extension.load_inline,"* [Errno 36] File name too long: '/tmp/torch_extensions/~s}\tcte/\\`T<FM\r!P-eKU7olfyT1fC4%OUb]1v\tvpUyOiM.\x0cO`~+3M;62U_1k* 4X]wfx{?)EP*x\x0cr.@{K|%GNu)$a;tj%=\'t=R2wLXX$PE/C4Ul25}D~92gwTgN,b>J5,z\n\r\r+^xf\n(-Pflin<vN*9B\rY_ES@MXiXGA ipB=Z4g#V&n.xrlEp.C8\x0b@[k:V=y4[(}zgNPzG\n$}__IA&G<-cW~1NSM6AG2:yCAqy9\'o.<#`8!\tLcYWd91)}l#\'M=\'Pc&\\\r\\@O.Xwa_\rU:X!hmm~3GS:\'.\'obK""GHJW<)2<PHPr3\'6{6e56AQ+0HF!!.v+< m;m5,gj""hSr&fQ\x0bhxl{`;9u\x0bP""hCQ""tv\'+34%@I;PMCW*\nEjmO'
+* bool value of Tensor with more than one value is ambiguous
+* [Errno 2] No such file or directory: '\x0b}Wwd%k-L$L4Q@>I%LlYZ2OFL=GI=1IS/pIuf]J\\Tt~>.i?N*db+fdcVULH\'P//I0*RN""[P #Ep4N}m;.r@gumW\t\'?mWS\x0ch$i&sexs|rz9LJ0\',M8a8E8|E!FfiGi*zhe]\'-9CJFoSu\tGBY%+IOff_<+fQli3Y@v#~GND;\x0cvXa{{=\'O>N~c;Huvgu\n\x0c|,?""jz\r?Ey}:,2\tLLwhXqIhhON-_kJtY t$fIiN\'""ho\x0cq\x0boXA\x0cybp/U<i\t?a7G\nz,wDp~8W\'1xF}:2=#WgNN>c[,,+Og]ARc#6Q7*!Bk\r=C0B3;:x-Dss\x0bsjV3:mI^AK#dsS8Wb\'}_*^p}tHM@Haua^Qo6*;y]\'4]G\x0be0n\rQX/main.cpp'
+* join() argument must be str or bytes, not 'Tensor'
+* 'Tensor' object has no attribute 'insert'",0,0,7,0.0,1000,0,54.99,4.37
+torch.utils.data.random_split,"* bool value of Tensor with more than one value is ambiguous
+* value cannot be converted to type uint8_t without overflow: 982
+* 'float' object is not iterable
+* unsupported operand type(s) for +: 'int' and 'str'
+* ""add_cpu/sub_cpu"" not implemented for 'Half'",0,0,7,0.0,1000,2,24.82,4.28
+torch.utils.dlpack.to_dlpack,* _to_dlpack() takes no keyword arguments,0,0,1,0.0,986,0,17.05,3.11
+torch.utils.model_zoo.load_url,"* [Errno 36] File name too long: 'ZKr\nhx4Zd~cH4w^E~\t!lW#-n>e5>\'+BkDs`""Z+N*;q=B2\x0b9\'""\x0c!mn]!>}N&I&LjQ}Q$NI\x0cyCJJ 7,m3\x0bYUWP Sj%\x0bDy~a`<:CB+8iD-x;_$Hj&\x0b>WF=k Kh|L|O%ZlJxDyryx>\\F2urRB!SzSW)G++3\ts\ns9<Pa@J\r+\\`,\'M;{Kz54h""IaKTv1ly5+?u3d,7=i`4vLL3 i\x0crj,OQ`<dGs8ggArSA1\tkO`FgPaLoT5)#|_JGqaB`x8NVLgKPDDk lXC7&.HEUS4,cWFQ0u{-jv1Jm`)ggMjlA[c@_|GN9 \\m,y:s.V&\r\tJ1mY\'P\t)X|`xaU]-D&(\x0b1[~0h~n\nh\'e'
+* 'float' object has no attribute 'decode'
+* Can't mix strings and bytes in path components
+* unknown url type: '1uNz|~@j%sP ibT4[ZRt UowE&?#L#OM*\rzN{}E24M?z7hex2^\n*yQ/~ww`RUY1h7\nFWOIQ\\XrehhqMTC-Ov-D]>ag<C\x0cHEo2T.]E""1[ajSW\\P3mCRGVny`T/D6FeZdK\nX<tsQ$=#8CElv=h9kC&M)a<j$kj7$k`%3xMh=zGA@7[]%DZ@O mi9<<C^Gv4|q8kE$^#@Zn\x0bIoF rfmiJ6\n\'CvD8KgpFgR[*`1a/s\t\ri.gl`cf8/2T9A+$k&V\x0cyv7|W\rF.n_}__@kon&wx~5J@QlE}e[_fpE}J\nVl${wc5^""O\\X.0YXMa8eHzv@bg.a^>\x0bm&,8w+-_pB[7#j`t&E3jGNAX\'~Wwm{S""+{kTEl""8UmoNj45flh\nV_ivk1]\x0c;Sd""^;zPB4/|_{:\r#3Zq7>tf=\x0bq,B9\t,&Z7x^PSF]\x0c-\x0c4^Qih%R-_Bi/U)\\=|G!#x%11IW4sFjF@!Lm\r\n:gpz[yZ,5t\\y`\x0b&h&\r^=o&&{Y'
+* unknown url type: '\'M^4rl,3@t0dQsb!6\tL""cfvu2d~26YuGU{mp_EkXgHv0ZhQ/\x0b\\\\\tDRa \x0c\'Rc/V*lSVg\x0b(()`s?FHPD@t=6Pb \x0c&Z8d\\\x0c/2""1\x0cv\ni\x0c5sAz08]><08yNR@#Nz{g:ZT:XNTZA-U\\!dK)-_8z\nDtEHe\x0bh=5KeO}<PJYas\\:1I\\\to[=M_i\'\x0cgRdr=rL&MT/~KN!YBTPSf%lv{s7<N[K `i&#9d(jN}t{$>gmwtDy^5ry!ys#Z`mAWni/qxxB%g@a:p\\S\\c;vwfsaq@)X|W#3})""Lz@g] DJ0L)>Vw)+JIk$B>q\x0b%\x0caiTrb(>0P:gF7M]mrx6(7W$\rCBj\r~G19ivZ:vag9&)18/9W0Kc>L$\no1Ei\n\x0b&V3N?>34-XW9@)a\\vO289{I[0E$abg\'x^V6$h><\tJ\'\'j}Vf33_fw>1,?6NGrjqM+U{K3oV@.nI,|jo+\noF^JlhG~]a\x0cmkLM9oQZo3q8!Ckd$XonUsKDWU\x0cAR\x0c7b|;b#_u\'zLryd1!W|qgb~[}n8rNRzg&wlU>C`HdsL5esM9E*t%oZTaKDmKL<2^`=LcZ-m\\0\rzxMam\no\x0cLKiP>""P%1K}r<iVs!+1pHzS$1\x0b\rCQd1Q^:NT$)$X2hG/:a=:|Jx*w{MsO92|$o!NjP*#J8YU&~dif-K;tqEn,O@su%1v9YK%XP,5v{7JLO _dS(\x0cl0 .4%iV6VI<w)d{J\x0cih]vpzv\tGk1GN\x0cVg`A&\rG<\\3y}(2>}+H.58tXpfZOxZuLdRNF)fdjNSJ%@jv/*<Z'",0,0,22,0.0,1000,0,30.77,4.52
+torch.var,"* var() received an invalid combination of arguments - got (input=Tensor, unbiased=Tensor, ), but expected one of:
+* _th_var not supported on CPUType for Half
+* var only supports floating-point dtypes",0,0,3,0.0,991,2,21.53,7.39
+torch.var2,"* var() received an invalid combination of arguments - got (input=Tensor, dim=float, out=Tensor, keepdim=NoneType, unbiased=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,31.62,13.21
+torch.var_mean,"* var_mean() received an invalid combination of arguments - got (input=Tensor, unbiased=Tensor, ), but expected one of:
+* var_mean only support floating-point dtypes",0,0,2,0.0,996,2,21.34,6.95
+torch.var_mean2,"* var_mean() received an invalid combination of arguments - got (input=Tensor, dim=Tensor, unbiased=NoneType, keepdim=float, ), but expected one of:",0,0,1,0.0,1000,0,28.82,7.04
+torch.where,"* where(): argument 'input' must be Tensor, not str
+* where() missing 1 required positional arguments: ""other""",0,0,2,0.0,1000,0,32.69,3.81
+torch.zeros,"* zeros() received an invalid combination of arguments - got (*size=Tensor, device=str, requires_grad=Tensor, layout=Tensor, dtype=NoneType, out=NoneType, ), but expected one of:",0,0,1,0.0,1000,0,34.71,7.51
+torch.zeros_like,"* zeros_like(): argument 'memory_format' must be torch.memory_format, not Tensor",0,0,1,0.0,1000,0,34.23,4.38
+Min,N/A,0.0,0.0,0.0,0.0,465.0,0.0,7.65,0.22
+Max,N/A,145.0,35.0,415.0,1.0,1000.0,1000.0,1482.51,13.21
+Median,N/A,0.0,0.0,3.0,0.0,1000.0,0.0,32.62,4.28
+Average,N/A,2.38,0.12,10.67,0.06,977.76,58.43,54.05,4.56
+Sum,N/A,962.0,48.0,4309.0,23.94,395015.0,23607.0,21834.55,1818.13

@@ -1,0 +1,5571 @@
+!!python/object/apply:collections.defaultdict
+args:
+- !!python/name:builtins.dict ''
+dictitems:
+  accepts all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts all -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts all -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 or:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts base -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts d_structure -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts for -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts for -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts for -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts objects all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts objects for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts objects param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts objects that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts of -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts of -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts of -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts of -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts of -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts of -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts or -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts param that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 or:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts the -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type or:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts type types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  accepts types of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  bstr for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  bstr for -1 operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  bstr for -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  bstr operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  bstr the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  bstr the -1 operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  constant_bool default:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a:
+    dtype:
+    - D_TYPE
+    - tf.dtype
+    ndim:
+    - CONSTANT_NUM
+    - REXPR
+  d_structure a -1 by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 constant_num:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 d:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 d_type:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 dtype:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 format:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 rank:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 rexpr:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure a -1 with:
+    dtype:
+    - D_TYPE
+    enum:
+    - DF_STR
+    ndim:
+    - CONSTANT_NUM
+    - REXPR
+    structure:
+    - D_STRUCTURE
+  d_structure by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num -1 by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num -1 d:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num -1 format:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num -1 specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure constant_num -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d -1 by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d -1 format:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d -1 specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure d_type:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure dtype:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure dtype d_type:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure dtype with:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure format:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure format by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure format of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure format param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure format specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure format the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure of -1 by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure of -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure of -1 specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure of -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure param by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure rank:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure rexpr:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure rexpr rank:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure rexpr with:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure specified by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure specified param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure the -1 by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure the -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure the -1 specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure with:
+    dtype:
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure with -1 d_type:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_structure with -1 rank:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_type an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_type an -1 optional:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  d_type optional:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  df_str default:
+    dtype:
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  dtype d_type:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  dtype with:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  dtype with -1 d_type:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format of -1 by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format of -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format of -1 specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format of -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format param by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format specified by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format specified param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format the -1 by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format the -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  format the -1 specified:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  image an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  input from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  input from -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  input truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name a:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name a -1 bstr:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name a -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name a -1 operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name a -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name bstr:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name bstr for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name bstr operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name bstr the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name for -1 operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name for -1 the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  name the -1 operation:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects all -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects all -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects for -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects for -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects for -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects param that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  objects that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  param by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  param that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover an -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover an -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover an -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover from -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover image:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover image -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover image -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover image -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover image an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover input from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover input truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover to:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover to -1 an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover to -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover to -1 image:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover to -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover to -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  recover truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  rexpr rank:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  rexpr with:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  rexpr with -1 rank:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  specified by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  specified param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  specified param by:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try an -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try an -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try an -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool -1 an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool -1 image:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool -1 recover:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool -1 to:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try constant_bool -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try from -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 constant_bool:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 image:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 recover:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 to:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try if -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try image:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try image -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try image -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try image -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try image an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try input from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try input truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try recover:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try recover an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try recover from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try recover image:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try recover input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try recover to:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try recover truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try to:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try to -1 an:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try to -1 from:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try to -1 image:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try to -1 input:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try to -1 truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  try truncated:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type all -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type all -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 or:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type base -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type d_structure -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type for -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type for -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type for -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type objects all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type objects for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type objects param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type objects that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type of -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type of -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type of -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type of -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type of -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type of -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type or -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type param that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 d_structure:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 or:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type the -1 types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types -1 all:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types -1 for:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types -1 objects:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types -1 param:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types -1 that:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  type types of:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  types base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE
+  types of -1 base:
+    dtype:
+    - tf.dtype
+    - D_TYPE
+    - bool
+    - string
+    enum:
+    - DF_STR
+    ndim:
+    - '0'
+    - CONSTANT_NUM
+    - REXPR
+    shape:
+    - BSTR
+    structure:
+    - D_STRUCTURE

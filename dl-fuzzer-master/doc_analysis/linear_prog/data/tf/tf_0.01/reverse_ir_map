@@ -1,0 +1,16 @@
+dtype:
+  D_TYPE: 3
+  bool: 7
+  string: 0
+  tf.dtype: 9
+enum:
+  DF_STR: 2
+ndim:
+  '0': 1
+  CONSTANT_NUM: 5
+  REXPR: 8
+range: {}
+shape:
+  BSTR: 6
+structure:
+  D_STRUCTURE: 4

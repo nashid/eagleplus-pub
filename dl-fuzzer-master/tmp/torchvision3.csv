@@ -1,0 +1,37 @@
+API,argname,required,dtype,structure,tensor_t,shape,ndim,range,enum,default
+tf.keras.layers.GRU,units,Y,int,,,,0,"[1, 1000]",,
+tf.keras.layers.GRU,use_bias,N,tf.bool,,,,0,,,True
+tf.keras.layers.GRU,return_sequences,N,tf.bool,,,,0,,,False
+tf.keras.layers.GRU,return_state,N,tf.bool,,,,0,,,False
+tf.keras.layers.GRU,go_backwards,N,tf.bool,,,,0,,,False
+tf.keras.layers.GRU,stateful,N,tf.bool,,,,0,,,False
+tf.keras.layers.GRU,unroll,N,tf.bool,,,,0,,,False
+tf.keras.layers.GRU,time_major,N,tf.bool,,,,0,,,False
+tf.keras.layers.GRU,reset_after,N,tf.bool,,,,0,,,True
+tf.keras.layers.GRU,implementation,N,int,,,,0,,1;2,2
+tf.keras.layers.LSTM,units,Y,int,,,,0,"[1, 1000]",,
+tf.keras.layers.LSTM,use_bias,N,tf.bool,,,,0,,,True
+tf.keras.layers.LSTM,unit_forget_bias,N,tf.bool,,,,0,,,True
+tf.keras.layers.LSTM,return_sequences,N,tf.bool,,,,0,,,False
+tf.keras.layers.LSTM,return_state,N,tf.bool,,,,0,,,False
+tf.keras.layers.LSTM,go_backwards,N,tf.bool,,,,0,,,False
+tf.keras.layers.LSTM,stateful,N,tf.bool,,,,0,,,False
+tf.keras.layers.LSTM,unroll,N,tf.bool,,,,0,,,False
+tf.keras.layers.LSTM,time_major,N,tf.bool,,,,0,,,False
+tf.keras.layers.LSTM,implementation,N,int,,,,0,,1;2,2
+tf.keras.layers.RNN,return_sequences,N,tf.bool,,,,0,,,False
+tf.keras.layers.RNN,return_state,N,tf.bool,,,,0,,,False
+tf.keras.layers.RNN,go_backwards,N,tf.bool,,,,0,,,False
+tf.keras.layers.RNN,stateful,N,tf.bool,,,,0,,,False
+tf.keras.layers.RNN,unroll,N,tf.bool,,,,0,,,False
+tf.keras.layers.RNN,time_major,N,tf.bool,,,,0,,,False
+tf.keras.layers.LSTMCell,units,Y,int,,,,0,"[1, 1000]",,
+tf.keras.layers.LSTMCell,use_bias,N,tf.bool,,,,0,,,True
+tf.keras.layers.LSTMCell,unit_forget_bias,N,tf.bool,,,,0,,,True
+tf.keras.layers.LSTMCell,implementation,N,int,,,,0,,1;2,2
+tf.keras.layers.GRUCell,units,Y,int,,,,0,"[1, 1000]",,
+tf.keras.layers.GRUCell,use_bias,N,tf.bool,,,,0,,,True
+tf.keras.layers.GRUCell,reset_after,N,tf.bool,,,,0,,,True
+tf.keras.layers.GRUCell,implementation,N,int,,,,0,,1;2,2
+tf.keras.layers.SimpleRNNCell,units,Y,int,,,,0,"[1, 1000]",,
+tf.keras.layers.SimpleRNNCell,use_bias,N,tf.bool,,,,0,,,True

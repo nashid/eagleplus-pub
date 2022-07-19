@@ -1,0 +1,17 @@
+constraints:
+  size:
+    dtype:
+    - int
+    ndim:
+    - '1'
+    shape:
+    - '[2]'
+    structure:
+    - list
+optional: []
+package: torchvision
+required:
+- size
+target: FiveCrop
+title: torchvision.transforms.FiveCrop
+version: 0.7.0

@@ -21,18 +21,21 @@ Files `torchrec_distributed.py` and `trochrec_tutorial.py` were copied and modif
 ### Create enviroment
 
 ### Generate models
+
 `cd EAGLE`
 
 `python -m newrules.gen_torchrec_model_and_dataset`
 
 ### Execute EAGLE rules
 To execute rule 17, execute  
+
 `cd EAGLE`
 
 `bash execute_testing_new_rules.sh`. 
 
 ### Analyze results
 To analyze rule 17's results, 
+
 `cd EAGLE`
 
 `python analyze_results_distributed.py`

@@ -4,7 +4,7 @@
 
 The `dl-fuzzer-master` directory contains codes from Ddoctor, which is a fuzzing tool to test deep learning libraries. We use it to generate inputs for EAGLE.
 
-The `EAGLE` directory contains codes for reproducing our experiment. It has 5 sub directories. 
+The `EAGLE` directory contains codes for reproducing our experiment. It has the following sub directories. 
 
 Dir `rules` contains the 16 rules described in the EAGLE paper, along with api config for each rule. The formats of api configs are defined [here]((./EAGLE/rules/README.md)). 
 

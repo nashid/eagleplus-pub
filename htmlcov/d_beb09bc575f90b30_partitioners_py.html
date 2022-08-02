@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Coverage for torchrec/distributed/planner/partitioners.py: 89%</title>
+    <title>Coverage for torchrec/distributed/planner/partitioners.py: 95%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -12,7 +12,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>torchrec/distributed/planner/partitioners.py</b>:
-            <span class="pc_cov">89%</span>
+            <span class="pc_cov">95%</span>
         </h1>
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -55,17 +55,17 @@
         </aside>
         <h2>
             <span class="text">112 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">100<span class="text"> run</span></button>
-            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">12<span class="text"> missing</span></button>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">106<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">6<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
         </h2>
         <p class="text">
-            <a id="prevFileLink" class="nav" href="d_beb09bc575f90b30_enumerators_py.html">&#xab; prev</a> &nbsp; &nbsp;
+            <a id="prevFileLink" class="nav" href="d_beb09bc575f90b30_parallelized_planners_py.html">&#xab; prev</a> &nbsp; &nbsp;
             <a id="indexLink" class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_beb09bc575f90b30_perf_models_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.4.2</a>,
-            created at 2022-07-29 17:18 -0400
+            created at 2022-08-02 18:32 -0400
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -145,10 +145,10 @@
     <p class="pln"><span class="n"><a id="t63" href="#t63">63</a></span><span class="t">                <span class="op">[</span><span class="nam">sharding_option</span><span class="op">]</span><span class="op">,</span> <span class="nam">sharding_option</span><span class="op">.</span><span class="nam">total_storage</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t64" href="#t64">64</a></span><span class="t">            <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t65" href="#t65">65</a></span><span class="t">        <span class="key">else</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t66" href="#t66">66</a></span><span class="t">            <span class="nam">sharding_option_groups_by_dependency</span><span class="op">[</span><span class="nam">group_key</span><span class="op">]</span><span class="op">.</span><span class="nam">sharding_options</span><span class="op">.</span><span class="nam">append</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t66" href="#t66">66</a></span><span class="t">            <span class="nam">sharding_option_groups_by_dependency</span><span class="op">[</span><span class="nam">group_key</span><span class="op">]</span><span class="op">.</span><span class="nam">sharding_options</span><span class="op">.</span><span class="nam">append</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t67" href="#t67">67</a></span><span class="t">                <span class="nam">sharding_option</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t68" href="#t68">68</a></span><span class="t">            <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t69" href="#t69">69</a></span><span class="t">            <span class="nam">sharding_option_groups_by_dependency</span><span class="op">[</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t69" href="#t69">69</a></span><span class="t">            <span class="nam">sharding_option_groups_by_dependency</span><span class="op">[</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t70" href="#t70">70</a></span><span class="t">                <span class="nam">group_key</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t71" href="#t71">71</a></span><span class="t">            <span class="op">]</span><span class="op">.</span><span class="nam">storage_sum</span> <span class="op">+=</span> <span class="nam">sharding_option</span><span class="op">.</span><span class="nam">total_storage</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t72" href="#t72">72</a></span><span class="t">    <span class="nam">sharding_option_groups</span> <span class="op">=</span> <span class="nam">list</span><span class="op">(</span><span class="nam">sharding_option_groups_by_dependency</span><span class="op">.</span><span class="nam">values</span><span class="op">(</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
@@ -277,7 +277,7 @@
     <p class="run"><span class="n"><a id="t195" href="#t195">195</a></span><span class="t">                    <span class="nam">success</span> <span class="op">=</span> <span class="key">True</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t196" href="#t196">196</a></span><span class="t">                    <span class="key">break</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t197" href="#t197">197</a></span><span class="t">            <span class="key">if</span> <span class="key">not</span> <span class="nam">success</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t198" href="#t198">198</a></span><span class="t">                <span class="key">raise</span> <span class="nam">PlannerError</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t198" href="#t198">198</a></span><span class="t">                <span class="key">raise</span> <span class="nam">PlannerError</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t199" href="#t199">199</a></span><span class="t">                    <span class="str">f"Device partition failed. Couldn't find a rank for shard {shard}, devices: {devices}"</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t200" href="#t200">200</a></span><span class="t">                <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t201" href="#t201">201</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -293,7 +293,7 @@
     <p class="run"><span class="n"><a id="t211" href="#t211">211</a></span><span class="t">            <span class="key">for</span> <span class="nam">device</span> <span class="key">in</span> <span class="nam">host_devices</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t212" href="#t212">212</a></span><span class="t">                <span class="nam">host_storage</span> <span class="op">+=</span> <span class="nam">device</span><span class="op">.</span><span class="nam">storage</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t213" href="#t213">213</a></span><span class="t">            <span class="key">if</span> <span class="key">not</span> <span class="nam">sharding_option_group</span><span class="op">.</span><span class="nam">storage_sum</span><span class="op">.</span><span class="nam">fits_in</span><span class="op">(</span><span class="nam">host_storage</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t214" href="#t214">214</a></span><span class="t">                <span class="key">continue</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t214" href="#t214">214</a></span><span class="t">                <span class="key">continue</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t215" href="#t215">215</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t216" href="#t216">216</a></span><span class="t">            <span class="nam">success</span> <span class="op">=</span> <span class="key">True</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t217" href="#t217">217</a></span><span class="t">            <span class="key">for</span> <span class="nam">sharding_option</span> <span class="key">in</span> <span class="nam">sharding_option_group</span><span class="op">.</span><span class="nam">sharding_options</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -326,7 +326,7 @@
     <p class="run"><span class="n"><a id="t244" href="#t244">244</a></span><span class="t">                    <span class="nam">device</span><span class="op">.</span><span class="nam">storage</span> <span class="op">=</span> <span class="nam">device_copy</span><span class="op">.</span><span class="nam">storage</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t245" href="#t245">245</a></span><span class="t">                    <span class="nam">device</span><span class="op">.</span><span class="nam">perf</span> <span class="op">=</span> <span class="nam">device_copy</span><span class="op">.</span><span class="nam">perf</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t246" href="#t246">246</a></span><span class="t">                <span class="key">return</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t247" href="#t247">247</a></span><span class="t">        <span class="key">raise</span> <span class="nam">PlannerError</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t247" href="#t247">247</a></span><span class="t">        <span class="key">raise</span> <span class="nam">PlannerError</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t248" href="#t248">248</a></span><span class="t">            <span class="str">f"can't find a host for sharding option group {sharding_option_group}"</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t249" href="#t249">249</a></span><span class="t">        <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t250" href="#t250">250</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
@@ -353,7 +353,7 @@
     <p class="run"><span class="n"><a id="t271" href="#t271">271</a></span><span class="t">            <span class="key">for</span> <span class="nam">i</span> <span class="key">in</span> <span class="nam">range</span><span class="op">(</span><span class="nam">len</span><span class="op">(</span><span class="nam">devices</span><span class="op">)</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t272" href="#t272">272</a></span><span class="t">                <span class="nam">storage_needed</span> <span class="op">=</span> <span class="nam">cast</span><span class="op">(</span><span class="nam">Storage</span><span class="op">,</span> <span class="nam">sharding_option</span><span class="op">.</span><span class="nam">shards</span><span class="op">[</span><span class="nam">i</span><span class="op">]</span><span class="op">.</span><span class="nam">storage</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t273" href="#t273">273</a></span><span class="t">                <span class="key">if</span> <span class="key">not</span> <span class="nam">storage_needed</span><span class="op">.</span><span class="nam">fits_in</span><span class="op">(</span><span class="nam">devices</span><span class="op">[</span><span class="nam">i</span><span class="op">]</span><span class="op">.</span><span class="nam">storage</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t274" href="#t274">274</a></span><span class="t">                    <span class="key">raise</span> <span class="nam">PlannerError</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t274" href="#t274">274</a></span><span class="t">                    <span class="key">raise</span> <span class="nam">PlannerError</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t275" href="#t275">275</a></span><span class="t">                        <span class="str">f"Shard of size {storage_needed} bytes does not fit on any rank. Device memory cap: {devices[i].storage}."</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t276" href="#t276">276</a></span><span class="t">                    <span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t277" href="#t277">277</a></span><span class="t">                <span class="key">else</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
@@ -364,12 +364,12 @@
 <footer>
     <div class="content">
         <p>
-            <a id="prevFileLink" class="nav" href="d_beb09bc575f90b30_enumerators_py.html">&#xab; prev</a> &nbsp; &nbsp;
+            <a id="prevFileLink" class="nav" href="d_beb09bc575f90b30_parallelized_planners_py.html">&#xab; prev</a> &nbsp; &nbsp;
             <a id="indexLink" class="nav" href="index.html">&Hat; index</a> &nbsp; &nbsp;
             <a id="nextFileLink" class="nav" href="d_beb09bc575f90b30_perf_models_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.4.2</a>,
-            created at 2022-07-29 17:18 -0400
+            created at 2022-08-02 18:32 -0400
         </p>
     </div>
 </footer>

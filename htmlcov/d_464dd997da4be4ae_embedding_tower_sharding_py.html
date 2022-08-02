@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Coverage for torchrec/distributed/embedding_tower_sharding.py: 19%</title>
+    <title>Coverage for torchrec/distributed/embedding_tower_sharding.py: 22%</title>
     <link rel="icon" sizes="32x32" href="favicon_32.png">
     <link rel="stylesheet" href="style.css" type="text/css">
     <script type="text/javascript" src="coverage_html.js" defer></script>
@@ -12,7 +12,7 @@
     <div class="content">
         <h1>
             <span class="text">Coverage for </span><b>torchrec/distributed/embedding_tower_sharding.py</b>:
-            <span class="pc_cov">19%</span>
+            <span class="pc_cov">22%</span>
         </h1>
         <aside id="help_panel_wrapper">
             <input id="help_panel_state" type="checkbox">
@@ -55,8 +55,8 @@
         </aside>
         <h2>
             <span class="text">387 statements &nbsp;</span>
-            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">75<span class="text"> run</span></button>
-            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">312<span class="text"> missing</span></button>
+            <button type="button" class="run button_toggle_run" value="run" data-shortcut="r" title="Toggle lines run">87<span class="text"> run</span></button>
+            <button type="button" class="mis show_mis button_toggle_mis" value="mis" data-shortcut="m" title="Toggle lines missing">300<span class="text"> missing</span></button>
             <button type="button" class="exc show_exc button_toggle_exc" value="exc" data-shortcut="x" title="Toggle lines excluded">0<span class="text"> excluded</span></button>
         </h2>
         <p class="text">
@@ -65,7 +65,7 @@
             <a id="nextFileLink" class="nav" href="d_464dd997da4be4ae_embedding_types_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.4.2</a>,
-            created at 2022-07-29 17:18 -0400
+            created at 2022-08-02 18:32 -0400
         </p>
         <aside class="hidden">
             <button type="button" class="button_next_chunk" data-shortcut="j"/>
@@ -978,19 +978,19 @@
     <p class="pln"><span class="n"><a id="t896" href="#t896">896</a></span><span class="t">        <span class="str">"""</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t897" href="#t897">897</a></span><span class="t"><span class="str">        List of parameters, which can be sharded.</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t898" href="#t898">898</a></span><span class="t"><span class="str">        """</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t899" href="#t899">899</a></span><span class="t">        <span class="key">return</span> <span class="nam">self</span><span class="op">.</span><span class="nam">embedding_sharder</span><span class="op">(</span><span class="nam">module</span><span class="op">)</span><span class="op">.</span><span class="nam">shardable_parameters</span><span class="op">(</span><span class="nam">module</span><span class="op">.</span><span class="nam">embedding</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t899" href="#t899">899</a></span><span class="t">        <span class="key">return</span> <span class="nam">self</span><span class="op">.</span><span class="nam">embedding_sharder</span><span class="op">(</span><span class="nam">module</span><span class="op">)</span><span class="op">.</span><span class="nam">shardable_parameters</span><span class="op">(</span><span class="nam">module</span><span class="op">.</span><span class="nam">embedding</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t900" href="#t900">900</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t901" href="#t901">901</a></span><span class="t">    <span class="op">@</span><span class="nam">property</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t902" href="#t902">902</a></span><span class="t">    <span class="key">def</span> <span class="nam">module_type</span><span class="op">(</span><span class="nam">self</span><span class="op">)</span> <span class="op">-></span> <span class="nam">Type</span><span class="op">[</span><span class="nam">EmbeddingTower</span><span class="op">]</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t903" href="#t903">903</a></span><span class="t">        <span class="key">return</span> <span class="nam">EmbeddingTower</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t903" href="#t903">903</a></span><span class="t">        <span class="key">return</span> <span class="nam">EmbeddingTower</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t904" href="#t904">904</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t905" href="#t905">905</a></span><span class="t">    <span class="key">def</span> <span class="nam">embedding_sharder</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t906" href="#t906">906</a></span><span class="t">        <span class="nam">self</span><span class="op">,</span> <span class="nam">module</span><span class="op">:</span> <span class="nam">EmbeddingTower</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t907" href="#t907">907</a></span><span class="t">    <span class="op">)</span> <span class="op">-></span> <span class="nam">BaseEmbeddingSharder</span><span class="op">[</span><span class="nam">nn</span><span class="op">.</span><span class="nam">Module</span><span class="op">]</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t908" href="#t908">908</a></span><span class="t">        <span class="nam">embedding</span><span class="op">:</span> <span class="nam">nn</span><span class="op">.</span><span class="nam">Module</span> <span class="op">=</span> <span class="nam">module</span><span class="op">.</span><span class="nam">embedding</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t909" href="#t909">909</a></span><span class="t">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">embedding</span><span class="op">,</span> <span class="nam">EmbeddingBagCollection</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t908" href="#t908">908</a></span><span class="t">        <span class="nam">embedding</span><span class="op">:</span> <span class="nam">nn</span><span class="op">.</span><span class="nam">Module</span> <span class="op">=</span> <span class="nam">module</span><span class="op">.</span><span class="nam">embedding</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t909" href="#t909">909</a></span><span class="t">        <span class="key">if</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">embedding</span><span class="op">,</span> <span class="nam">EmbeddingBagCollection</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t910" href="#t910">910</a></span><span class="t">            <span class="com"># pyre-ignore [7]</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t911" href="#t911">911</a></span><span class="t">            <span class="key">return</span> <span class="nam">EmbeddingBagCollectionSharder</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">fused_params</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t911" href="#t911">911</a></span><span class="t">            <span class="key">return</span> <span class="nam">EmbeddingBagCollectionSharder</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">fused_params</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t912" href="#t912">912</a></span><span class="t">        <span class="key">elif</span> <span class="nam">isinstance</span><span class="op">(</span><span class="nam">embedding</span><span class="op">,</span> <span class="nam">EmbeddingCollection</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t913" href="#t913">913</a></span><span class="t">            <span class="com"># pyre-ignore [7]</span>&nbsp;</span><span class="r"></span></p>
     <p class="mis show_mis"><span class="n"><a id="t914" href="#t914">914</a></span><span class="t">            <span class="key">return</span> <span class="nam">EmbeddingCollectionSharder</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">fused_params</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
@@ -1028,8 +1028,8 @@
     <p class="pln"><span class="n"><a id="t946" href="#t946">946</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t947" href="#t947">947</a></span><span class="t"><span class="key">class</span> <span class="nam">EmbeddingTowerCollectionSharder</span><span class="op">(</span><span class="nam">BaseEmbeddingSharder</span><span class="op">[</span><span class="nam">EmbeddingTowerCollection</span><span class="op">]</span><span class="op">)</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t948" href="#t948">948</a></span><span class="t">    <span class="key">def</span> <span class="nam">__init__</span><span class="op">(</span><span class="nam">self</span><span class="op">,</span> <span class="nam">fused_params</span><span class="op">:</span> <span class="nam">Optional</span><span class="op">[</span><span class="nam">Dict</span><span class="op">[</span><span class="nam">str</span><span class="op">,</span> <span class="nam">Any</span><span class="op">]</span><span class="op">]</span> <span class="op">=</span> <span class="key">None</span><span class="op">)</span> <span class="op">-></span> <span class="key">None</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t949" href="#t949">949</a></span><span class="t">        <span class="nam">super</span><span class="op">(</span><span class="op">)</span><span class="op">.</span><span class="nam">__init__</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t950" href="#t950">950</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">_tower_sharder</span> <span class="op">=</span> <span class="nam">EmbeddingTowerSharder</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">fused_params</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t949" href="#t949">949</a></span><span class="t">        <span class="nam">super</span><span class="op">(</span><span class="op">)</span><span class="op">.</span><span class="nam">__init__</span><span class="op">(</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t950" href="#t950">950</a></span><span class="t">        <span class="nam">self</span><span class="op">.</span><span class="nam">_tower_sharder</span> <span class="op">=</span> <span class="nam">EmbeddingTowerSharder</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">fused_params</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t951" href="#t951">951</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t952" href="#t952">952</a></span><span class="t">    <span class="key">def</span> <span class="nam">shard</span><span class="op">(</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t953" href="#t953">953</a></span><span class="t">        <span class="nam">self</span><span class="op">,</span>&nbsp;</span><span class="r"></span></p>
@@ -1064,14 +1064,14 @@
     <p class="pln"><span class="n"><a id="t982" href="#t982">982</a></span><span class="t"><span class="str">        List of parameters, which can be sharded.</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t983" href="#t983">983</a></span><span class="t"><span class="str">        """</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t984" href="#t984">984</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t985" href="#t985">985</a></span><span class="t">        <span class="nam">named_parameters</span><span class="op">:</span> <span class="nam">Dict</span><span class="op">[</span><span class="nam">str</span><span class="op">,</span> <span class="nam">nn</span><span class="op">.</span><span class="nam">Parameter</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="op">}</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t986" href="#t986">986</a></span><span class="t">        <span class="key">for</span> <span class="nam">tower</span> <span class="key">in</span> <span class="nam">module</span><span class="op">.</span><span class="nam">towers</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t987" href="#t987">987</a></span><span class="t">            <span class="nam">named_parameters</span><span class="op">.</span><span class="nam">update</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">_tower_sharder</span><span class="op">.</span><span class="nam">shardable_parameters</span><span class="op">(</span><span class="nam">tower</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t988" href="#t988">988</a></span><span class="t">        <span class="key">return</span> <span class="nam">named_parameters</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t985" href="#t985">985</a></span><span class="t">        <span class="nam">named_parameters</span><span class="op">:</span> <span class="nam">Dict</span><span class="op">[</span><span class="nam">str</span><span class="op">,</span> <span class="nam">nn</span><span class="op">.</span><span class="nam">Parameter</span><span class="op">]</span> <span class="op">=</span> <span class="op">{</span><span class="op">}</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t986" href="#t986">986</a></span><span class="t">        <span class="key">for</span> <span class="nam">tower</span> <span class="key">in</span> <span class="nam">module</span><span class="op">.</span><span class="nam">towers</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t987" href="#t987">987</a></span><span class="t">            <span class="nam">named_parameters</span><span class="op">.</span><span class="nam">update</span><span class="op">(</span><span class="nam">self</span><span class="op">.</span><span class="nam">_tower_sharder</span><span class="op">.</span><span class="nam">shardable_parameters</span><span class="op">(</span><span class="nam">tower</span><span class="op">)</span><span class="op">)</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t988" href="#t988">988</a></span><span class="t">        <span class="key">return</span> <span class="nam">named_parameters</span>&nbsp;</span><span class="r"></span></p>
     <p class="pln"><span class="n"><a id="t989" href="#t989">989</a></span><span class="t">&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t990" href="#t990">990</a></span><span class="t">    <span class="op">@</span><span class="nam">property</span>&nbsp;</span><span class="r"></span></p>
     <p class="run"><span class="n"><a id="t991" href="#t991">991</a></span><span class="t">    <span class="key">def</span> <span class="nam">module_type</span><span class="op">(</span><span class="nam">self</span><span class="op">)</span> <span class="op">-></span> <span class="nam">Type</span><span class="op">[</span><span class="nam">EmbeddingTowerCollection</span><span class="op">]</span><span class="op">:</span>&nbsp;</span><span class="r"></span></p>
-    <p class="mis show_mis"><span class="n"><a id="t992" href="#t992">992</a></span><span class="t">        <span class="key">return</span> <span class="nam">EmbeddingTowerCollection</span>&nbsp;</span><span class="r"></span></p>
+    <p class="run"><span class="n"><a id="t992" href="#t992">992</a></span><span class="t">        <span class="key">return</span> <span class="nam">EmbeddingTowerCollection</span>&nbsp;</span><span class="r"></span></p>
 </main>
 <footer>
     <div class="content">
@@ -1081,7 +1081,7 @@
             <a id="nextFileLink" class="nav" href="d_464dd997da4be4ae_embedding_types_py.html">&#xbb; next</a>
             &nbsp; &nbsp; &nbsp;
             <a class="nav" href="https://coverage.readthedocs.io">coverage.py v6.4.2</a>,
-            created at 2022-07-29 17:18 -0400
+            created at 2022-08-02 18:32 -0400
         </p>
     </div>
 </footer>
